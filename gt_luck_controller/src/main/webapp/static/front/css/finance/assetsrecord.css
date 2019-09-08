@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.assetsrecord {
+	font-size: 12px;
+	min-height: 600px;
+}
+
+.assetsrecord table span {
+	display: block;
+	line-height: 30px;
+}
+
+.assetsrecord table span.second {
+	line-height: 60px;
+}
+
+.assetsrecord .table>tbody>tr>td {
+	border-top: none;
+	padding: 0;
+	line-height: 30px;
+}
+
+.assetsrecord table .borderright {
+	border-right: #f1f1f1 solid 1px;
+}
+
+.assetsrecord table .borderbottom {
+	border-bottom: #f1f1f1 solid 1px;
+}

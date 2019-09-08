@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+.notice {
+	display: none;
+}
+
+.login-body-full {
+	background: url("../../images/user/login-bg.jpg") no-repeat 50% 0;
+	height: 871px;
+	padding-top: 50px;
+}
+
+.login {
+	position: relative;
+	top: 200px;
+	left: 50px;
+	width: 395px;
+}
+
+.login .login-header {
+	height: 50px;
+	line-height: 50px;
+	background: rgba(255, 255, 255, .1);
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login .form-group {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.login .login-ipt {
+	border-radius: 0;
+	padding: 0 12px 0 50px;
+	line-height: 45px;
+	height: 45px;
+}
+
+.login .btn-login {
+	border-radius: 0;
+	padding: 0;
+	line-height: 50px;
+	height: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background: #1a7ffe;
+	outline: none;
+}
+
+.login .login-other {
+	height: 50px;
+	line-height: 50px;
+	background: rgba(0, 0, 0, .2);
+}
+
+.login .login-other span {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	position: relative;
+}
+
+.login .split {
+	width: 1px;
+	height: 27px;
+	background: #848484;
+	position: absolute;
+	top: 11.5px;
+	right: 0;
+}
+
+.login .login-other a {
+	padding-left: 30px;
+	line-height: 45px;
+	display: inline-block;
+	color: #c1c1c1;
+	text-decoration: none;
+}
+
+.login .login-other a.qq {
+	background: url("../../images/user/registerplist.png") no-repeat -212px
+		-237px;
+}
+
+.login .login-other a.qq:hover {
+	background: url("../../images/user/registerplist.png") no-repeat 6px
+		-237px;
+	color: #fff;
+}
+
+.login .login-other a.weixin {
+	background: url("../../images/user/registerplist.png") no-repeat -205px
+		-188px;
+	padding-left: 38px;
+}
+
+.login .login-other a.weixin:hover {
+	background: url("../../images/user/registerplist.png") no-repeat 6px
+		-188px;
+	color: #fff;
+}
+
+.login .login-reset a {
+	color: #ff8b8b;
+	text-decoration: none;
+	position: relative;
+	top: -5px;
+}
+
+.login .ipt-icon {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 14.5px;
+	left: 14.5px
+}
+
+.login .ipt-icon.acc {
+	background: url("../../images/user/registerplist.png") no-repeat -60px
+		-300px;
+}
+
+.login .ipt-icon.pas {
+	background: url("../../images/user/registerplist.png") no-repeat 0
+		-300px;
+}
+
+.login .ipt-icon.code {
+	background: url("../../images/user/registerplist.png") no-repeat -109px
+		-300px;
+}
+
+.register {
+	top: 100px;
+}
+
+.register .register-areacode {
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+	padding: 0;
+	left: 2px;
+	top: 1px;
+}
+
+.register .register-imgmsg {
+	height: 36px;
+	top: 5px;
+	right: 5px;
+	width: 100px;
+}
+
+.register .register-msg {
+	height: 36px;
+	line-height: 36px;
+	padding: 0 12px;
+	font-size: 14px;
+	outline: none;
+	top: 5px;
+	right: 5px;
+	width: 100px;
+}
+
+.register .register-email {
+	display: none;
+}
+
+.register label {
+	color: #fff;
+	font-size: 12px;
+	width: 100%;
+}
+
+.register .text-white {
+	color: #fff;
+}
+
+.register .register-tab {
+	color: #cdcdcd;
+	width: 50%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.register a{
+	color:#ff8b8b !important;
+}
+
+.register .register-item {
+	width: 50%;
+	text-align: center;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.register .register-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.register .active,.register .register-tab:hover {
+	color: #fff;
+}
+
+.register .icon-phone {
+	background: url("../../images/user/registerplist.png") no-repeat -205px
+		3px;
+}
+
+.register .icon-email {
+	background: url("../../images/user/registerplist.png") no-repeat -210px
+		-55px;
+}
+
+.register .active .icon-phone,.register .register-tab:hover .icon-phone
+	{
+	background: url("../../images/user/registerplist.png") no-repeat 5px 3px;
+}
+
+.register .active .icon-email,.register .register-tab:hover .icon-email
+	{
+	background: url("../../images/user/registerplist.png") no-repeat 0 -55px;
+}
+
+.register .active .icon-arrow {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid #fff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}

@@ -1,0 +1,48 @@
+.lever .font-size-16 {
+	font-size: 16px !important;
+}
+
+.lever .font-size-14 {
+	font-size: 14px !important;
+}
+
+.lever .redcolor {
+	color: #e80f1d;
+}
+
+.lever .lever-top {
+	background: #f9f9f9;
+}
+
+.lever .lever-top-left {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.lever .lever-help {
+	background: url("../../images/lever/leverplist.png") no-repeat 0 0;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.lever .lever-unit {
+	position: absolute;
+	top: 6px;
+	right: 25px;
+}
+
+.lever .lever-free {
+	line-height: 31px;
+}
+
+.lever .lever-recordtabs {
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+}
+
+.lever .panel-heading {
+	background: #f9f9f9;
+}

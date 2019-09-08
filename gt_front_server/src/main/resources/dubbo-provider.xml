@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans        
+    http://www.springframework.org/schema/beans/spring-beans.xsd        
+    http://code.alibabatech.com/schema/dubbo        
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+ 
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="gt_front_server_provider"  />
+    
+    <!-- 设置dubbo传输数据的最大值，默认是8M 此处设置100M-->
+    <dubbo:provider timeout="20000"  payload="104857600"/>
+    
+    <!-- 使用multicast广播注册中心暴露服务地址 -->
+   <!--  <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
+ 
+	<!-- registry address, used for service to register itself -->
+	<dubbo:registry protocol="zookeeper" address="${zookeeper.register.address}" timeout="10000" file="gt_front_server.dubbo.register.local" />
+
+	<!-- expose this service through dubbo protocol, through port 18001 -->
+	<dubbo:protocol name="dubbo" port="18001" serialization="java" />
+ 
+  
+    <!-- 定义接口 -->
+    <!-- front -->
+    <bean id="frontConstantMapService" class="com.gt.service.front.FrontConstantMapServiceImpl" scope="singleton" init-method="init"/> 
+    <bean id="frontValidateMapService" class="com.gt.service.front.FrontValidateMapServiceImpl" scope="singleton"/> 
+    
+    
+    <!-- 声明需要暴露的服务接口 -->
+    <!-- front -->
+    <!-- 用户中心接口 -->
+    <dubbo:service ref="frontUserService" interface="com.gt.service.front.FrontUserService" />
+    <!-- 短信和邮件验证接口 -->
+    <dubbo:service ref="frontValidateService" interface="com.gt.service.front.FrontValidateService" />
+    <!-- 会员资金记录接口 -->
+    <dubbo:service ref="frontAccountService" interface="com.gt.service.front.FrontAccountService" />
+    <!-- 虚拟币操作接口 -->
+    <dubbo:service ref="frontVirtualCoinService" interface="com.gt.service.front.FrontVirtualCoinService" />
+    <!--  -->
+    <dubbo:service ref="frontConstantMapService" interface="com.gt.service.front.FrontConstantMapService" />
+    
+    <dubbo:service ref="frontValidateMapService" interface="com.gt.service.front.FrontValidateMapService" />
+    
+    <dubbo:service ref="apiService" interface="com.gt.service.front.ApiService" />
+    
+    <dubbo:service ref="assetService" interface="com.gt.service.front.AssetService" />
+    
+    <dubbo:service ref="frontApiService" interface="com.gt.service.front.FrontApiService" />
+    
+    <dubbo:service ref="frontBankInfoService" interface="com.gt.service.front.FrontBankInfoService" />
+    
+    <dubbo:service ref="frontOthersService" interface="com.gt.service.front.FrontOthersService" />
+    
+    <dubbo:service ref="frontQuestionService" interface="com.gt.service.front.FrontQuestionService" />
+    
+    <dubbo:service ref="frontSystemArgsService" interface="com.gt.service.front.FrontSystemArgsService" />
+    
+    <dubbo:service ref="ftradeMappingService" interface="com.gt.service.front.FtradeMappingService" />
+    
+    <dubbo:service ref="fvirtualWalletService" interface="com.gt.service.front.FvirtualWalletService" />
+    
+    <dubbo:service ref="levelScoreService" interface="com.gt.service.front.LevelScoreService" />
+    
+    <dubbo:service ref="utilsService" interface="com.gt.service.front.UtilsService" />
+    
+    <dubbo:service ref="frontTradeService" interface="com.gt.service.front.FrontTradeService" />
+    <dubbo:service ref="frontUserFaceIDService" interface="com.gt.service.front.FrontUserFaceIDService" />
+    
+    <dubbo:service ref="fentrustlogService" interface="com.gt.service.front.FentrustlogService" />
+    
+    <dubbo:service ref="fentrustService" interface="com.gt.service.front.FentrustService" />
+    
+    <!-- 划账service -->
+    <dubbo:service ref="frontDrawAccountsService" interface="com.gt.service.front.FrontDrawAccountsService" />
+    
+    <!-- 项目方专区service -->
+    <dubbo:service ref="frontPadService" 				interface="com.gt.service.front.FrontPadService" />
+    <dubbo:service ref="frontPcointypeService" 			interface="com.gt.service.front.FrontPcointypeService" />
+    <dubbo:service ref="frontPdepositcointypeService" 	interface="com.gt.service.front.FrontPdepositcointypeService" />
+    <dubbo:service ref="frontPdepositlogsService" 		interface="com.gt.service.front.FrontPdepositlogsService" />
+    <dubbo:service ref="frontPdepositService" 			interface="com.gt.service.front.FrontPdepositService" />
+    <dubbo:service ref="frontPdomainService" 			interface="com.gt.service.front.FrontPdomainService" />
+    <dubbo:service ref="frontPfeesService" 				interface="com.gt.service.front.FrontPfeesService" />
+    <dubbo:service ref="frontPprojectService" 			interface="com.gt.service.front.FrontPprojectService" />
+    <dubbo:service ref="frontPsystemconfigService" 		interface="com.gt.service.front.FrontPsystemconfigService" />
+    <dubbo:service ref="frontPtrademappingService" 		interface="com.gt.service.front.FrontPtrademappingService" />
+    <!-- 项目方专区统计service -->
+    <dubbo:service ref="frontPcapitaldetailsService" 		      interface="com.gt.service.front.FrontPcapitaldetailsService" />
+    <dubbo:service ref="frontPprofitlogsService" 	              interface="com.gt.service.front.FrontPprofitlogsService" />
+    <dubbo:service ref="frontPuserProfitlogsService" 	          interface="com.gt.service.front.FrontPuserProfitlogsService" />
+    <dubbo:service ref="frontPstatisticsDataService" 	          interface="com.gt.service.front.FrontPstatisticsDataService" />
+    <dubbo:service ref="frontActivityService" interface="com.gt.service.front.FrontActivityService" />
+
+   <dubbo:service ref="frontLotteryAwardsService" interface="com.gt.service.front.FrontLotteryAwardsService" />
+   <dubbo:service ref="frontLotteryPeriodsService" interface="com.gt.service.front.FrontLotteryPeriodsService" />
+   <dubbo:service ref="frontLotteryLogService" interface="com.gt.service.front.FrontLotteryLogService" />
+   <dubbo:service ref="frontLotteryRecordService" interface="com.gt.service.front.FrontLotteryRecordService" />
+    
+    
+    <!-- admin -->
+    <dubbo:service ref="friendLinkService" interface="com.gt.service.admin.FriendLinkService" />
+    <dubbo:service ref="limittradeService" interface="com.gt.service.admin.LimittradeService" />
+    <dubbo:service ref="tradehistoryService" interface="com.gt.service.admin.TradehistoryService" />
+    <dubbo:service ref="tradeMappingService" interface="com.gt.service.admin.TradeMappingService" />
+    <dubbo:service ref="virtualCoinService" interface="com.gt.service.admin.VirtualCoinService" />
+    <dubbo:service ref="systemArgsService" interface="com.gt.service.admin.SystemArgsService" />
+    <dubbo:service ref="adminService" interface="com.gt.service.admin.AdminService" />
+    <dubbo:service ref="logService" interface="com.gt.service.admin.LogService" />
+    <dubbo:service ref="messageService" interface="com.gt.service.admin.MessageService" />
+    <dubbo:service ref="userService" interface="com.gt.service.admin.UserService" />
+    <dubbo:service ref="introlinfoService" interface="com.gt.service.admin.IntrolinfoService" />
+    <dubbo:service ref="withdrawFeesService" interface="com.gt.service.admin.WithdrawFeesService" />
+    <dubbo:service ref="aboutService" interface="com.gt.service.admin.AboutService" />
+    <dubbo:service ref="poolService" interface="com.gt.service.admin.PoolService" />
+    <dubbo:service ref="virtualaddressService" interface="com.gt.service.admin.VirtualaddressService" />
+    <dubbo:service ref="articleService" interface="com.gt.service.admin.ArticleService" />
+    <dubbo:service ref="capitaloperationService" interface="com.gt.service.admin.CapitaloperationService" />
+    <dubbo:service ref="levelSettingService" interface="com.gt.service.admin.LevelSettingService" />
+    <dubbo:service ref="feeService" interface="com.gt.service.admin.FeeService" />
+    <dubbo:service ref="scoreSettingService" interface="com.gt.service.admin.ScoreSettingService" />
+    <dubbo:service ref="entrustService" interface="com.gt.service.admin.EntrustService" />
+    
+    <dubbo:service ref="articleTypeService" interface="com.gt.service.admin.ArticleTypeService" />
+    <dubbo:service ref="validatemessageService" interface="com.gt.service.admin.ValidatemessageService" />
+    <dubbo:service ref="roleService" interface="com.gt.service.admin.RoleService" />
+    <dubbo:service ref="autotradeService" interface="com.gt.service.admin.AutotradeService" />
+    <dubbo:service ref="bankinfoWithdrawService" interface="com.gt.service.admin.BankinfoWithdrawService" />
+    <dubbo:service ref="virtualaddressWithdrawService" interface="com.gt.service.admin.VirtualaddressWithdrawService" />
+    <dubbo:service ref="bannerService" interface="com.gt.service.admin.BannerService" />
+    <dubbo:service ref="systembankService" interface="com.gt.service.admin.SystembankService" />
+    <dubbo:service ref="virtualCapitaloperationService" interface="com.gt.service.admin.VirtualCapitaloperationService" />
+    <dubbo:service ref="countLimitService" interface="com.gt.service.admin.CountLimitService" />
+    <dubbo:service ref="operationLogService" interface="com.gt.service.admin.OperationLogService" />
+    <dubbo:service ref="roleSecurityService" interface="com.gt.service.admin.RoleSecurityService" />
+    <dubbo:service ref="securityService" interface="com.gt.service.admin.SecurityService" />
+    <dubbo:service ref="scoreRecordService" interface="com.gt.service.admin.ScoreRecordService" />
+    <dubbo:service ref="releaseLogService" interface="com.gt.service.admin.ReleaseLogService" />
+    <dubbo:service ref="snapEntrustService" interface="com.gt.service.admin.SnapEntrustService" />
+    <dubbo:service ref="snapGtService" interface="com.gt.service.admin.SnapGtService" />
+    <dubbo:service ref="virtualPresaleLogService" interface="com.gt.service.admin.VirtualPresaleLogService" />
+    <dubbo:service ref="entrustMinerService" interface="com.gt.service.admin.EntrustMinerService" />
+    <dubbo:service ref="subscriptionService" interface="com.gt.service.admin.SubscriptionService" />
+    <dubbo:service ref="subscriptionLogService" interface="com.gt.service.admin.SubscriptionLogService" />
+    <dubbo:service ref="usersettingService" interface="com.gt.service.admin.UsersettingService" />
+    <dubbo:service ref="ScoreService" interface="com.gt.service.admin.ScoreService" />
+    <dubbo:service ref="virtualOperationLogService" interface="com.gt.service.admin.VirtualOperationLogService" />
+    <dubbo:service ref="WebBaseInfoService" interface="com.gt.service.admin.WebBaseInfoService" />
+    
+    
+    <dubbo:reference id="frontEntrustChangeService" interface="com.gt.service.front.FrontEntrustChangeService" retries="0" check="false"/>
+    
+    <!-- OTC相关service -->
+    <dubbo:service ref="fotcAdvertisementService" interface="com.gt.service.front.FotcAdvertisementService" />
+    <dubbo:service ref="fotcInstitutionsinfoService" interface="com.gt.service.front.FotcInstitutionsinfoService" />
+    <dubbo:service ref="fotcOrderService" interface="com.gt.service.front.FotcOrderService" />
+    <dubbo:service ref="fotcOrderWalletRecordService" interface="com.gt.service.front.FotcOrderWalletRecordService" />
+    <dubbo:service ref="fotcUserPaytypeService" interface="com.gt.service.front.FotcUserPaytypeService" />
+    <dubbo:service ref="fotcOrderLogsService" interface="com.gt.service.front.FotcOrderLogsService" />
+    <dubbo:service ref="fotcBlacklistService" interface="com.gt.service.front.FotcBlacklistService" />
+    
+    <!-- 产品管理 service -->
+    <dubbo:service ref="frontPproductService" interface="com.gt.service.front.FrontPproductService" />
+    
+    <dubbo:service ref="fotcWebChatService" interface="com.gt.service.front.FotcWebChatService" />
+    
+</beans>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+	xsi:schemaLocation="http://www.springframework.org/schema/rabbit
+	http://www.springframework.org/schema/rabbit/spring-rabbit-1.4.xsd
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- 定义RabbitMQ的连接工厂 -->
+	<rabbit:connection-factory id="rabbitmqConnectionFactory"
+		host="${rabbit.ip}" port="${rabbit.port}" username="${rabbit.username}" password="${rabbit.password}"
+		virtual-host="${rabbit.vhost}" />
+
+	<!-- MQ的管理，包括队列、交换器等 -->
+	<rabbit:admin connection-factory="rabbitmqConnectionFactory" />
+	
+	<!-- 定义消息队列 -->
+	<rabbit:queue name="add_market_queue" 	auto-declare="true"/>
+	<rabbit:queue name="add_depth_queue" 	auto-declare="true"/>
+	
+	<!-- 定义交换机，并且完成队列和交换机的绑定 -->
+	<rabbit:direct-exchange name="entrustDirectExchange" auto-declare="true">
+		<rabbit:bindings>
+			<!-- gbcax_email_message接收发送的消息，key路由key -->
+			<rabbit:binding queue="add_market_queue" 	key="market.add"/>
+			<rabbit:binding queue="add_depth_queue" 	key="depth.add"/>
+		</rabbit:bindings>
+	</rabbit:direct-exchange>
+	
+	<!-- 定义监听 -->
+	<rabbit:listener-container connection-factory="rabbitmqConnectionFactory">
+		<!-- 监听一个队列，当队列中有消息，就会自动触发类.方法，传递消息就作为方法的参数，根据方法声明的参数强转 -->
+		<!-- <rabbit:listener ref="sendMessageService" method="send" queue-names="gbcax_email_message.messageQueue"/>
+		<rabbit:listener ref="sendEmailService" method="send" queue-names="gbcax_email_message.emailQueue"/> -->
+		<rabbit:listener ref="frontMarketJsonService" method="sendMarketFresh2" 	queue-names="add_market_queue"/>
+		<rabbit:listener ref="frontMarketJsonService" method="sendDepth" 			queue-names="add_depth_queue"/>
+	</rabbit:listener-container>
+
+</beans>

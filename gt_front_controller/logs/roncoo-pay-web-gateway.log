@@ -1,0 +1,698 @@
+[INFO ][2019-01-07 14:23:48,014][HttpClientUtils:251] 进入get请求方法...
+[INFO ][2019-01-07 14:23:48,016][HttpClientUtils:252] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 14:23:48,049][HttpClientUtils:253] 请求入参：params={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 14:23:48,292][HttpClientUtils:271] 请求地址：http://192.168.0.193:8081/appApi.html?sign=6B3000416D314DCAE6D53DE5D8D511B9&email=17880612013&api_key=359b8b8b-beb8-4652-b588-9f4d72651930&action=UserLogin&password=123qwe
+[ERROR][2019-01-07 14:23:48,384][HttpClientUtils:282] 响应失败，状态码：406
+[INFO ][2019-01-07 14:37:53,664][HttpClientUtils:251] 进入get请求方法...
+[INFO ][2019-01-07 14:37:53,667][HttpClientUtils:252] 请求入参：URL= http://192.168.0.193:8081/app/appApi.html
+[INFO ][2019-01-07 14:37:53,701][HttpClientUtils:253] 请求入参：params={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 14:37:53,940][HttpClientUtils:271] 请求地址：http://192.168.0.193:8081/app/appApi.html?sign=6B3000416D314DCAE6D53DE5D8D511B9&email=17880612013&api_key=359b8b8b-beb8-4652-b588-9f4d72651930&action=UserLogin&password=123qwe
+[ERROR][2019-01-07 14:37:58,696][HttpClientUtils:282] 响应失败，状态码：406
+[INFO ][2019-01-07 14:38:35,041][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 14:38:35,043][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/app/appApi.html
+[INFO ][2019-01-07 14:38:35,043][HttpClientUtils:58] 请求入参：headers={"content-type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 14:38:35,043][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 14:38:35,309][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 14:44:08,300][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 14:44:08,302][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/app/appApi.html
+[INFO ][2019-01-07 14:44:08,302][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 14:44:08,303][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 14:44:08,610][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 15:09:50,137][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:09:50,139][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:09:50,140][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:09:50,140][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 15:09:50,424][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 15:09:58,930][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:09:58,932][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi
+[INFO ][2019-01-07 15:09:58,932][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:09:58,932][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 15:09:59,197][HttpClientUtils:91] 响应失败，状态码：404
+[INFO ][2019-01-07 15:12:49,648][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:12:49,650][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:12:49,650][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:12:49,651][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:14:33,342][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:14:33,344][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:14:33,344][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:14:33,344][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 15:16:42,948][HttpClientUtils:95] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPost(HttpClientUtils.java:84)
+	at com.gt.util.HttpClientUtils.sendPost(HttpClientUtils.java:203)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:857)
+[INFO ][2019-01-07 15:17:35,370][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:17:35,372][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:17:35,373][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:17:35,373][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:19:35,443][HttpClientUtils:251] 进入get请求方法...
+[INFO ][2019-01-07 15:19:35,445][HttpClientUtils:252] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:19:35,478][HttpClientUtils:253] 请求入参：params={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:19:35,712][HttpClientUtils:271] 请求地址：http://192.168.0.193:8081/appApi.html?sign=6B3000416D314DCAE6D53DE5D8D511B9&email=17880612013&api_key=359b8b8b-beb8-4652-b588-9f4d72651930&action=UserLogin&password=123qwe
+[INFO ][2019-01-07 15:22:17,013][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:22:17,016][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:22:17,016][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 15:22:17,016][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:25:57,800][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:25:57,802][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:25:57,802][HttpClientUtils:58] 请求入参：headers={}
+[INFO ][2019-01-07 15:25:57,802][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:32:49,243][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:32:49,245][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:32:49,245][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded"}
+[INFO ][2019-01-07 15:32:49,245][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:34:01,925][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:34:01,927][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:34:01,927][HttpClientUtils:58] 请求入参：headers=null
+[INFO ][2019-01-07 15:34:01,928][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:34:57,650][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:34:57,652][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:34:57,652][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-07 15:34:57,652][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:36:21,960][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:36:21,962][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:36:21,962][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-07 15:36:21,963][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:39:12,685][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:39:12,687][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:39:12,687][HttpClientUtils:58] 请求入参：headers={"Accept":"application/json","Content-Type":"application/json"}
+[INFO ][2019-01-07 15:39:12,687][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:40:41,515][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:40:41,517][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:40:41,517][HttpClientUtils:58] 请求入参：headers={"Accept":"application/json","Content-Type":"application/json"}
+[INFO ][2019-01-07 15:40:41,518][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 15:40:41,829][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 15:41:42,323][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:41:42,325][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:41:42,325][HttpClientUtils:58] 请求入参：headers={"Accept":"application/json","Content-Type":"application/json"}
+[INFO ][2019-01-07 15:41:42,325][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:52:12,624][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:52:12,626][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:52:12,626][HttpClientUtils:58] 请求入参：headers={"Accept":"application/json","Content-Type":"application/json"}
+[INFO ][2019-01-07 15:52:12,627][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:53:58,069][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 15:53:58,071][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:53:58,071][HttpClientUtils:58] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded"}
+[INFO ][2019-01-07 15:53:58,071][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 15:57:17,466][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-07 15:57:17,469][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 15:57:17,501][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded"}
+[INFO ][2019-01-07 15:57:17,501][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:13:46,645][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:13:46,665][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:13:46,775][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-08 09:13:46,775][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-08 09:13:47,492][HttpClientUtils:158] 响应失败，状态码：406
+[INFO ][2019-01-08 09:17:40,151][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:17:40,151][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:17:40,181][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-08 09:17:40,181][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:18:21,841][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:18:21,841][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:18:21,871][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-08 09:18:21,871][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:19:03,831][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:19:03,831][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:19:03,861][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/json"}
+[INFO ][2019-01-08 09:19:03,861][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:19:42,162][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:19:42,172][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:19:42,212][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded"}
+[INFO ][2019-01-08 09:19:42,212][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:21:19,036][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:21:19,046][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:21:19,076][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:21:19,076][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:26:24,970][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:26:24,970][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:26:25,009][HttpClientUtils:117] 请求入参：headers={"Accept":"application/x-www-form-urlencoded","Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:26:25,010][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:28:08,548][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:28:08,548][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:28:08,578][HttpClientUtils:117] 请求入参：headers={"Accept":"application/x-www-form-urlencoded","Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:28:08,578][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-08 09:28:08,878][HttpClientUtils:158] 响应失败，状态码：406
+[INFO ][2019-01-08 09:29:27,242][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:29:27,242][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:29:27,272][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:29:27,272][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-08 09:29:50,796][HttpClientUtils:162] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:861)
+[INFO ][2019-01-08 09:30:52,671][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:30:52,671][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:30:52,701][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:30:52,701][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 09:55:20,146][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 09:55:20,146][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 09:55:20,176][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 09:55:20,176][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:12:18,081][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:12:18,083][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:12:18,126][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:12:18,127][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:15:24,205][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:15:24,208][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:15:24,239][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=GBK"}
+[INFO ][2019-01-08 11:15:24,239][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:15:37,682][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:15:37,684][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:15:37,716][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=GBK"}
+[INFO ][2019-01-08 11:15:37,716][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:18:29,879][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:18:29,881][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:18:29,912][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:18:29,912][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:18:58,836][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:18:58,838][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:18:58,868][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=GBK"}
+[INFO ][2019-01-08 11:18:58,868][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:41:15,311][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:41:15,314][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:41:15,347][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:41:15,347][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:47:56,387][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:47:56,389][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:47:56,418][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:47:56,418][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-08 11:52:04,914][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:52:04,917][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:52:04,948][HttpClientUtils:117] 请求入参：headers={"Type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-08 11:52:04,948][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-08 11:52:05,253][HttpClientUtils:158] 响应失败，状态码：406
+[INFO ][2019-01-08 11:52:19,523][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:52:19,525][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:52:19,558][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:52:19,558][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-08 11:52:19,863][HttpClientUtils:158] 响应失败，状态码：406
+[INFO ][2019-01-08 11:57:02,027][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-08 11:57:02,029][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-08 11:57:02,058][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-08 11:57:02,058][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:08:57,372][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:08:57,393][HttpClientUtils:116] 请求入参：URL= http://47.100.103.49:8081/appApi.html
+[INFO ][2019-01-09 10:08:57,432][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:08:57,432][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-09 10:09:19,112][HttpClientUtils:162] 发送post请求失败
+org.apache.http.conn.HttpHostConnectException: Connect to 47.100.103.49:8081 [/47.100.103.49] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:857)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 11 more
+[INFO ][2019-01-09 10:09:33,472][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:09:33,482][HttpClientUtils:116] 请求入参：URL= http://47.100.103.49/appApi.html
+[INFO ][2019-01-09 10:09:33,512][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:09:33,512][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:10:43,948][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:10:43,948][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:10:43,978][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:10:43,978][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:11:11,503][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:11:11,503][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:11:11,533][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:11:11,533][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-09 10:13:53,512][HttpClientUtils:162] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:857)
+[INFO ][2019-01-09 10:14:41,832][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:14:41,842][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:14:41,862][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:14:41,862][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:16:12,236][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:16:12,238][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:16:12,268][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:16:12,269][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:16:43,846][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:16:43,848][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:16:43,878][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:16:43,878][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:17:46,374][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:17:46,376][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:17:46,406][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:17:46,407][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:18:42,615][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:18:42,616][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:18:42,648][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:18:42,648][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:25:20,083][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:25:20,086][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-09 10:25:20,116][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:25:20,116][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:27:22,494][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:27:22,496][HttpClientUtils:116] 请求入参：URL= http://47.100.103.49/appApi.html
+[INFO ][2019-01-09 10:27:22,526][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:27:22,527][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-09 10:39:36,260][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-09 10:39:36,262][HttpClientUtils:116] 请求入参：URL= http://47.100.103.49/appApi.html
+[INFO ][2019-01-09 10:39:36,292][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-09 10:39:36,292][HttpClientUtils:118] 请求入参：data={"sign":"3F9C8126ED4E413B843F7D4DE31ECAE7","email":"18118846524","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"dhy110528"}
+[INFO ][2019-01-10 11:57:56,008][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-10 11:57:56,022][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-10 11:57:56,095][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-10 11:57:56,095][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-10 14:13:14,134][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-10 14:13:14,152][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-10 14:13:14,236][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-10 14:13:14,236][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-10 14:16:05,731][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-10 14:16:05,734][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-10 14:16:05,765][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-10 14:16:05,766][HttpClientUtils:118] 请求入参：data={"sign":"E92E4BA1E7866A7D121D16CFA8415D5E","amount":"88","loginToken":"318B2DFB8438B7A8E0FC2BB513660318_1547100795210_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","userId":"107672","action":"drawAccountsSubmit"}
+[INFO ][2019-01-11 17:38:44,085][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-11 17:38:44,088][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-11 17:38:44,151][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-11 17:38:44,152][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-14 10:56:18,643][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-14 10:56:18,643][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-14 10:56:18,756][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-14 10:56:18,756][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-14 10:57:07,935][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-14 10:57:07,945][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-14 10:57:07,975][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-14 10:57:07,975][HttpClientUtils:118] 请求入参：data={"sign":"0412599F093F2483469ACA86F9124C22","loginToken":"0B2FE9F2E004917A504ABF6834D26C85_1547434584890_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","action":"checkTradePwd"}
+[INFO ][2019-01-14 10:57:35,535][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-14 10:57:35,535][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-14 10:57:35,565][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-14 10:57:35,565][HttpClientUtils:118] 请求入参：data={"sign":"3904645711D6F25BEB9D0FEC497FC4A1","loginToken":"0B2FE9F2E004917A504ABF6834D26C85_1547434584890_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe1234","action":"checkTradePwd"}
+[INFO ][2019-01-16 17:29:15,879][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-16 17:29:15,881][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-16 17:29:15,922][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-16 17:29:15,922][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-16 17:29:53,821][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-16 17:29:53,823][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-16 17:29:53,855][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-16 17:29:53,855][HttpClientUtils:118] 请求入参：data={"sign":"EED28ECA9171D6519204F68468E0CF3A","amount":"88","loginToken":"E8D253F81FE0734195B3C6D6721D73DC_1547630960021_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","action":"drawAccountsSubmit"}
+[INFO ][2019-01-16 17:32:26,013][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-16 17:32:26,016][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-16 17:32:26,055][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-16 17:32:26,055][HttpClientUtils:118] 请求入参：data={"sign":"EED28ECA9171D6519204F68468E0CF3A","amount":"88","loginToken":"E8D253F81FE0734195B3C6D6721D73DC_1547630960021_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","action":"drawAccountsSubmit"}
+[INFO ][2019-01-16 17:33:26,302][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-16 17:33:26,304][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-16 17:33:26,336][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-16 17:33:26,337][HttpClientUtils:118] 请求入参：data={"sign":"EED28ECA9171D6519204F68468E0CF3A","amount":"88","loginToken":"E8D253F81FE0734195B3C6D6721D73DC_1547630960021_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","action":"drawAccountsSubmit"}
+[INFO ][2019-01-18 11:16:46,817][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:16:46,848][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:16:46,986][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:16:46,986][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-18 11:17:29,260][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:17:29,262][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:17:29,292][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:17:29,292][HttpClientUtils:118] 请求入参：data={"sign":"A313128543BF40B197C3D5F372B35397","loginToken":"03BE2FF8B5C62BF863DCCED9C426CE67_1547781408375_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"GetDrawaccountsCoinlist"}
+[INFO ][2019-01-18 11:20:47,679][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:20:47,681][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:20:47,712][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:20:47,712][HttpClientUtils:118] 请求入参：data={"sign":"A313128543BF40B197C3D5F372B35397","loginToken":"03BE2FF8B5C62BF863DCCED9C426CE67_1547781408375_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"GetDrawaccountsCoinlist"}
+[INFO ][2019-01-18 11:33:24,271][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:33:24,273][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:33:24,304][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:33:24,304][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-18 11:33:51,407][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:33:51,409][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:33:51,440][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:33:51,441][HttpClientUtils:118] 请求入参：data={"sign":"5CFEBEC3A08415D789E7CD4152A4050C","loginToken":"20EFB726373BD5109D61D2F5FA332311_1547782405043_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"GetDrawaccountsCoinlist"}
+[INFO ][2019-01-18 11:34:20,392][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:34:20,394][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:34:20,425][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:34:20,425][HttpClientUtils:118] 请求入参：data={"sign":"8C174F0FF6B369E7C6D06597752A6772","loginToken":"20EFB726373BD5109D61D2F5FA332311_1547782405043_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"85","action":"GetAccountsByCoin"}
+[INFO ][2019-01-18 11:35:29,793][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:35:29,796][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:35:29,826][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:35:29,826][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-18 11:35:55,817][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:35:55,819][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:35:55,852][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:35:55,852][HttpClientUtils:118] 请求入参：data={"sign":"5F591273760951802864F787A4C168D7","loginToken":"5F7C34F20679EEEF03AA98349BDFD12D_1547782530675_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"85","action":"GetAccountsByCoin"}
+[INFO ][2019-01-18 11:36:28,925][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:36:28,927][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:36:28,959][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:36:28,959][HttpClientUtils:118] 请求入参：data={"sign":"5F591273760951802864F787A4C168D7","loginToken":"5F7C34F20679EEEF03AA98349BDFD12D_1547782530675_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"85","action":"GetAccountsByCoin"}
+[ERROR][2019-01-18 11:39:50,058][HttpClientUtils:162] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.GetAccountsByCoin(FAPIController.java:963)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:972)
+[INFO ][2019-01-18 11:40:25,726][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:40:25,728][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:40:25,759][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:40:25,759][HttpClientUtils:118] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-18 11:40:48,666][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:40:48,669][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:40:48,700][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:40:48,700][HttpClientUtils:118] 请求入参：data={"sign":"19EB0719822E6BD68A4A5D039979A7D9","loginToken":"4AC888A352CB9BE23CC1D8D0A7F1DC81_1547782826516_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"85","action":"GetAccountsByCoin"}
+[INFO ][2019-01-18 11:41:57,911][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:41:57,913][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:41:57,942][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:41:57,942][HttpClientUtils:118] 请求入参：data={"sign":"387B1C9A21AEE052BD3BAA1921F37DAC","loginToken":"4AC888A352CB9BE23CC1D8D0A7F1DC81_1547782826516_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"88","action":"GetAccountsByCoin"}
+[INFO ][2019-01-18 11:42:06,641][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-18 11:42:06,643][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-18 11:42:06,673][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-18 11:42:06,673][HttpClientUtils:118] 请求入参：data={"sign":"FAFBB554DA3B65821F89F892094E9324","loginToken":"4AC888A352CB9BE23CC1D8D0A7F1DC81_1547782826516_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","coinType":"4","action":"GetAccountsByCoin"}
+[INFO ][2019-01-25 10:59:43,980][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 10:59:44,007][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 10:59:44,103][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 10:59:44,104][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 10:59:45,267][HttpClientUtils:158] 响应失败，状态码：500
+[INFO ][2019-01-25 11:02:14,526][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:02:14,529][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:02:14,559][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:02:14,560][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 11:02:14,883][HttpClientUtils:158] 响应失败，状态码：500
+[INFO ][2019-01-25 11:05:17,960][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:05:17,962][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:05:17,993][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:05:17,993][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 11:05:22,314][HttpClientUtils:158] 响应失败，状态码：500
+[INFO ][2019-01-25 11:06:26,927][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:06:26,929][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:06:26,960][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:06:26,960][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 11:06:45,046][HttpClientUtils:158] 响应失败，状态码：500
+[INFO ][2019-01-25 11:09:47,595][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:09:47,598][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:09:47,635][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:09:47,636][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[INFO ][2019-01-25 11:11:20,216][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:11:20,219][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:11:20,249][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:11:20,249][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[INFO ][2019-01-25 11:13:04,051][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:13:04,053][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:13:04,085][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:13:04,086][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 11:19:53,765][HttpClientUtils:162] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.UserRegister(FAPIController.java:859)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:998)
+[INFO ][2019-01-25 11:20:32,408][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:20:32,410][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:20:32,442][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:20:32,442][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[ERROR][2019-01-25 11:21:58,265][HttpClientUtils:162] 发送post请求失败
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.UserRegister(FAPIController.java:859)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:998)
+[INFO ][2019-01-25 11:22:44,188][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-01-25 11:22:44,190][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-01-25 11:22:44,222][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-01-25 11:22:44,222][HttpClientUtils:118] 请求入参：data={"sign":"53BC655AB75B0C8799652BBDF3A518CB","email":"15021635312","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserRegister","code":"111111","type":"1","password":"123qwe"}
+[INFO ][2019-03-07 11:55:32,700][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:55:32,716][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:808/appApi.html
+[INFO ][2019-03-07 11:55:32,774][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:55:32,774][HttpClientUtils:118] 请求入参：data={"sign":"22615FBB4AA5FF1AD2F6553DF756F7AB","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-03-07 11:55:34,359][HttpClientUtils:162] 发送post请求失败
+org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.193:808 [/192.168.0.193] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.UserLogin(FAPIController.java:887)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:1024)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 12 more
+[INFO ][2019-03-07 11:55:41,326][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:55:41,329][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-03-07 11:55:41,359][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:55:41,360][HttpClientUtils:118] 请求入参：data={"sign":"22615FBB4AA5FF1AD2F6553DF756F7AB","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-03-07 11:55:41,678][HttpClientUtils:158] 响应失败，状态码：404
+[INFO ][2019-03-07 11:56:01,262][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:56:01,265][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 11:56:01,301][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:56:01,302][HttpClientUtils:118] 请求入参：data={"sign":"22615FBB4AA5FF1AD2F6553DF756F7AB","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 11:56:58,583][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:56:58,585][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 11:56:58,617][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:56:58,617][HttpClientUtils:118] 请求入参：data={"sign":"22615FBB4AA5FF1AD2F6553DF756F7AB","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 11:58:36,506][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:58:36,509][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 11:58:36,543][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:58:36,543][HttpClientUtils:118] 请求入参：data={"sign":"22615FBB4AA5FF1AD2F6553DF756F7AB","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 11:59:36,027][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 11:59:36,029][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 11:59:36,061][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 11:59:36,061][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 12:00:54,291][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 12:00:54,293][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 12:00:54,323][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 12:00:54,323][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 13:33:27,848][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:33:27,852][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:33:27,884][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:33:27,885][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 13:33:56,622][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:33:56,624][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:33:56,656][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:33:56,656][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 13:38:03,410][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:38:03,412][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:38:03,444][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:38:03,445][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 13:39:33,409][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:39:33,411][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-03-07 13:39:33,441][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:39:33,441][HttpClientUtils:118] 请求入参：data={"sign":"046FE5F9C4782A858821744127932F26","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"1"}
+[ERROR][2019-03-07 13:39:33,710][HttpClientUtils:158] 响应失败，状态码：404
+[INFO ][2019-03-07 13:40:14,630][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:40:14,633][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:40:14,663][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:40:14,664][HttpClientUtils:118] 请求入参：data={"sign":"5A5490495621A98D8858F0394B38B11E","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"1"}
+[INFO ][2019-03-07 13:42:11,126][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:42:11,128][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:42:11,160][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:42:11,160][HttpClientUtils:118] 请求入参：data={"sign":"85112F9BBBD9FD26B54D2BBA068665C6","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","coinType":"85","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"1"}
+[INFO ][2019-03-07 13:43:27,940][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:43:27,942][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:43:27,973][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:43:27,973][HttpClientUtils:118] 请求入参：data={"sign":"D9CA65A59C0C28205B5A0DEED5D7926D","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","coinType":"4","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"2"}
+[INFO ][2019-03-07 13:44:06,569][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:44:06,571][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:44:06,604][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:44:06,605][HttpClientUtils:118] 请求入参：data={"sign":"E60B2390AF468252F9324B6649F8B84C","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","coinType":"85","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"2"}
+[INFO ][2019-03-07 13:44:40,176][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 13:44:40,179][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 13:44:40,212][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 13:44:40,212][HttpClientUtils:118] 请求入参：data={"sign":"343520719AF5EFAB3341043B27BCC6C6","amount":"88","loginToken":"298BE1CAEBF898B6D566154039DEE780_1551937088050_107676","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","coinType":"4","tradePwd":"qwe123","action":"drawAccountsSubmit","type":"1"}
+[INFO ][2019-03-07 17:16:30,422][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 17:16:30,424][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 17:16:30,461][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 17:16:30,462][HttpClientUtils:118] 请求入参：data={"sign":"1BF16571FC227D6E5EFD71AB3EF22863","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-03-07 17:17:08,798][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-07 17:17:08,800][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8081/appApi2.html
+[INFO ][2019-03-07 17:17:08,831][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-07 17:17:08,832][HttpClientUtils:118] 请求入参：data={"sign":"9501E74F7777371F64F57EA3E0556774","email":"17880612013","api_key":"4218b1d2-9ffa-490f-8207-c1a774d38cb4","action":"UserLogin","password":"123qweq"}
+[INFO ][2019-03-29 10:32:42,802][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-03-29 10:32:42,887][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-03-29 10:32:42,984][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-03-29 10:32:42,985][HttpClientUtils:118] 请求入参：data={"sign":"5E9A15F931FF30A4C3E39E6230DF0BA5","api_key":"7688f286-a19e-4976-a95c-4abf0e65830c","action":"GetAccountsByCoin"}
+[ERROR][2019-03-29 10:32:44,574][HttpClientUtils:162] 发送post请求失败
+org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.193:8082 [/192.168.0.193] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.GetAccountsByCoin(FAPIController.java:993)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:1028)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 12 more
+[INFO ][2019-04-04 18:00:15,568][HttpClientUtils:115] 进入post请求方法...
+[INFO ][2019-04-04 18:00:15,601][HttpClientUtils:116] 请求入参：URL= http://192.168.0.193:8082/appApi.html
+[INFO ][2019-04-04 18:00:15,691][HttpClientUtils:117] 请求入参：headers={"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}
+[INFO ][2019-04-04 18:00:15,691][HttpClientUtils:118] 请求入参：data={"sign":"03091652A4AD6EC493152F7B8FDAC2BB","amount":"1000","price":"0.000951","symbol":"21","api_key":"7688f286-a19e-4976-a95c-4abf0e65830c","action":"trade","type":"1"}
+[ERROR][2019-04-04 18:00:37,405][HttpClientUtils:162] 发送post请求失败
+org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.193:8082 [/192.168.0.193] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.gt.util.HttpClientUtils.sendPostFromData(HttpClientUtils.java:151)
+	at com.gt.controller.front.FAPIController.GetAccountsByCoin(FAPIController.java:997)
+	at com.gt.controller.front.FAPIController.main(FAPIController.java:1032)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 12 more

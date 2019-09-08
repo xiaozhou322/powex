@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans        
+    http://www.springframework.org/schema/beans/spring-beans.xsd        
+    http://code.alibabatech.com/schema/dubbo        
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+     <dubbo:consumer timeout="15000" />
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="gt_front_quotation_consumer"  />
+    <!-- 使用multicast广播注册中心暴露服务地址 -->
+   <!--  <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
+ 
+	<!-- registry address, used for service to register itself -->
+	<dubbo:registry protocol="zookeeper" address="${zookeeper.register.address}" timeout="100000000" file="gt_front_server.dubbo.register.local" />
+
+	<!-- expose this service through dubbo protocol, through port 18001 -->
+	<dubbo:protocol name="dubbo" port="28001" serialization="java" />
+    <!-- 声明需要暴露的服务接口 -->
+
+  <dubbo:reference id="frontConstantMapService" interface="com.gt.service.front.FrontConstantMapService" retries="0"/>
+  <dubbo:reference id="frontUserService" interface="com.gt.service.front.FrontUserService" retries="0"/>
+  <dubbo:reference id="frontValidateService" interface="com.gt.service.front.FrontValidateService" retries="0"/>
+  <dubbo:reference id="frontValidateMapService" interface="com.gt.service.front.FrontValidateMapService" retries="0"/>
+  <dubbo:reference id="utilsService" interface="com.gt.service.front.UtilsService" retries="0"/>
+  <dubbo:reference id="ftradeMappingService" interface="com.gt.service.front.FtradeMappingService" retries="0"/>
+  <dubbo:reference id="frontOtherService" interface="com.gt.service.front.FrontOthersService" retries="0"/>
+  <dubbo:reference id="userService" interface="com.gt.service.admin.UserService" retries="0"/>
+  <dubbo:reference id="adminService" interface="com.gt.service.admin.AdminService" retries="0"/>
+  <dubbo:reference id="logService" interface="com.gt.service.admin.LogService" retries="0"/>
+  <dubbo:reference id="messageService" interface="com.gt.service.admin.MessageService" retries="0"/>  
+  <dubbo:reference id="fvirtualWalletService" interface="com.gt.service.front.FvirtualWalletService" retries="0"/>  
+
+  <dubbo:reference id="frontVirtualCoinService" interface="com.gt.service.front.FrontVirtualCoinService" retries="0"/>  
+
+  <dubbo:reference id="systemArgsService" interface="com.gt.service.admin.SystemArgsService" retries="0"/>  
+  
+  <dubbo:reference id="aboutService" interface="com.gt.service.admin.AboutService" retries="0"/>
+  
+  <dubbo:reference id="frontBankInfoService" interface="com.gt.service.front.FrontBankInfoService" retries="0"/>
+  <dubbo:reference id="frontAccountService" interface="com.gt.service.front.FrontAccountService" retries="0"/>
+  <dubbo:reference id="frontTradeService" interface="com.gt.service.front.FrontTradeService" retries="0"/>
+  <dubbo:reference id="withdrawFeesService" interface="com.gt.service.admin.WithdrawFeesService" retries="0"/>
+  <dubbo:reference id="virtualCoinService" interface="com.gt.service.admin.VirtualCoinService" retries="0"/>
+  <dubbo:reference id="introlinfoService" interface="com.gt.service.admin.IntrolinfoService" retries="0"/>
+  <dubbo:reference id="poolService" interface="com.gt.service.admin.PoolService" retries="0"/>
+  <dubbo:reference id="virtualaddressService" interface="com.gt.service.admin.VirtualaddressService" retries="0"/>
+
+</beans>

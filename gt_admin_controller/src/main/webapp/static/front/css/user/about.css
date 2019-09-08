@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.about .bg-white {
+	background: #fff;
+	padding:10px 30px;
+}
+
+.about .padding-bottom-50 {
+	padding-bottom: 50px;
+}
+
+.about .split {
+	border-bottom: #f1f1f1 solid 1px;
+	padding: 20px 30px;
+}
+
+.about .title {
+	background: #0174fa url("../../images/user/aboutplist.png") no-repeat 30px 13px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	padding-left: 60px;
+}
+
+
+.about a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.about .panel-default>.panel-heading {
+	background-color: #fff;
+	border-color: #fff;
+	padding-left: 30px;
+}
+
+.about .list-group-item {
+	background-color: #f8f8f8;
+	border-bottom-color: #f1f1f1;
+	border-top-color: #f8f8f8;
+	border-right-color: #f8f8f8;
+	border-left-color: #f8f8f8;
+	padding-left: 40px;
+}
+
+.about .list-group-item.active,.about .list-group-item.active:hover,.about .list-group-item.active:focus {
+	z-index: 2;
+	color: #80acff;
+	background-color: #E3EEFF;
+	border-bottom-color: #f1f1f1;
+	border-top-color: #f8f8f8;
+	border-right-color: #f8f8f8;
+	border-left-color: #f8f8f8;
+}
+
+.panel-group .panel {
+	margin-top: -1px !important;
+	border-radius: 0 !important;
+}
+
+.about .item-icon {
+	padding-right: 5px;
+}

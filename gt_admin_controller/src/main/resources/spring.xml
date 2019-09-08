@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context
+			http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<!-- 加载配置文件 -->
+	<context:component-scan base-package="com.gt.*" />
+	<context:property-placeholder location="classpath:jdbc.properties"  ignore-unresolvable="true"/>
+	<context:property-placeholder location="classpath:log4j.properties" ignore-unresolvable="true"/>
+	<context:property-placeholder location="classpath:redis.properties" ignore-unresolvable="true"/>
+	<bean id="applicationContextUtil" class="com.gt.utils.ApplicationContextUtil"></bean >
+	<!--引入配置文件 -->
+	<import resource="dubbo.xml" />
+	<import resource="spring-shiro.xml" />
+	<import resource="spring-redis.xml"/>
+	<!-- <import resource="spring-quartz.xml" /> -->
+	<import resource="spring-quartz4.xml"/>
+	<import resource="spring-quartz7.xml"/>
+	<import resource="spring-quartz20.xml"/>
+	<import resource="spring-quartz-pdataStatistic.xml"/>
+	<import resource="spring-quartz-pprofitStatistic.xml"/>
+	<import resource="spring-quartz-usdt.xml"/>
+	<import resource="spring-quartz-autoTradeActive.xml"/>
+	<import resource="spring-quartz-autoBfscStatistic.xml"/>
+	
+	<bean class="com.gt.auto.RechargeBtcData" scope="singleton" init-method="init"></bean>
+	<bean class="com.gt.quartz.AutoRechargeCoinAll" scope="singleton" init-method="init"></bean>
+</beans>

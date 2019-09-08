@@ -1,0 +1,215 @@
+@charset "UTF-8";
+.lucky .g-lottery-box{
+    position: fixed;
+    top: 25%;
+    width: 7rem;
+    height: 7rem;
+}
+.lucky .g-lottery-box .g-lottery-img {
+    width: 6.4rem;
+    height: 6.8rem;
+    position: relative;
+    background: url(/static/mobile2018/images/exchange/turntable.gif) no-repeat;
+    left: 7%;
+    top: -10%;
+    background-size: 100% 100%;
+}
+
+.lucky .g-lottery-box .playbtn {
+    width: 1.9rem;
+    height: 1.9rem;
+    position: absolute;
+    top: 1.9rem;
+    left: 2.3rem;
+	background: url(../../images/exchange/dainji@2x.png) no-repeat center;
+	background-size: 100% 100%;
+	}
+
+
+.g-lottery-box .playLook{
+	display: block;
+    width: 2.32rem;
+    height: 0.5rem;
+    border: 1px solid #FF9000;
+    color: #FF9000;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 2.6rem;
+    bottom: 0.3rem;
+    background: #fff;
+	}
+	
+.lucky img{
+	width: 0.5rem;
+    height: 0.5rem;
+}
+.lucky .luckyClose{
+	float: right;
+    position: absolute;
+    right: 0.2rem;
+    top: -2em;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.fixedModule{
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+    z-index: 99;
+}
+.comModule{
+	height: 5.5rem;
+    width: 5.7rem;
+    background: url(../../images/exchange/tcbj.png) no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -3.3rem;
+    z-index: 10000;
+    display:none;
+}
+
+.comModule ul{
+    margin-top: 4.5em;
+    text-align: center;
+    margin-left: 3em;
+}
+.comModule .close2x{
+    bottom: -5em;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    margin-left:0.2rem;
+}
+.comModule li:nth-child(2){
+    height: 80px;
+    margin: 30px 0;
+}
+.comModule li>h3{
+     width: 2.68rem;
+    height: 0.6rem;
+    font-size: 0.26rem;
+    font-family: SimHei;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0.6rem;
+}
+.comModule li button{
+	background: #FF6600;
+    color: #fff;
+    width: 2.2rem;
+    height: 0.5rem;
+    border-radius: 0.1rem;
+    font-size: 0.26rem;
+    font-family: SimHei;
+    cursor: pointer;
+    margin-top: 0.2rem;
+	
+}
+.comModule li>a{
+	background: #FF6600;
+    color: #fff;
+    width: 151px;
+    height: 47px;
+    border-radius: 3px;
+    font-size: 22px;
+    font-family: SimHei;
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.lotteryBox{
+	height: 230px;
+	overflow: hidden;
+}
+/* 认证弹窗 */
+.realfixed{
+    height: 3.5rem;
+    width: 4.5rem;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 12em;
+    left: 50%;
+    margin-left: -2.2rem;
+    z-index: 100;
+    background: white;
+    box-shadow: 0px 2px 9px 0px rgba(183, 183, 183, 0.32);
+    display:none;
+}
+.realfixed ul h3{
+    text-align: right;
+    padding: 0.1rem 0.3rem 0 0;
+}
+.realfixed ul h3>img{
+    cursor: pointer;
+    width: 0.25rem;
+}
+
+.realfixed ul li{
+    color: #FF481F;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    margin-top: 0.15rem;
+}
+.realfixed ul li p{
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+}
+.realfixed ul li a{
+    color: #2269D4;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    height: 0.57rem;
+    display: block;
+}
+.realfixed ul li .lotterKYCBtn{
+     background: #2269D4;
+    width: 2rem;
+    height: 0.6rem;
+    color: #fff;
+    font-size: 0.26rem;
+    cursor: pointer;
+    margin: 0 auto;
+    line-height: 0.6rem;
+}
+.realfixed ul li button{
+    background: #2269D4;
+    width: 2rem;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 0.26rem;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.realfixed ul li .lotterKYCBtn label{cursor: pointer;}
+.realfixed ul li span{
+    display: block;
+    font-size:0.18rem;
+    line-height:0.5rem;
+}
+.realModule{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+    z-index: 99;
+    display:none;
+}

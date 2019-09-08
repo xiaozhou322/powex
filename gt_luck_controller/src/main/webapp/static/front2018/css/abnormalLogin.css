@@ -1,0 +1,146 @@
+@charset "UTF-8";
+.secondLogin{
+			width: 600px;
+			height: 100%;
+			margin: auto;
+			margin-top: 80px;
+			border: 1px solid #CCCCCC; 
+			border-radius: 5px;
+			background: white;
+			box-shadow:0 0 6px #999;
+		}
+		
+		.secondLogin_header{
+			text-align: center;
+		}
+		
+		h3{
+			margin: 40px;
+			font-size: 20px;
+		}
+		.close{
+			float: right;
+			font-size: 25px;
+			margin-right: 20px;
+			cursor: pointer;
+		}
+		.header_one>img{
+			vertical-align: middle;
+		}
+		
+		.contents{
+			display: flex;
+			width: 500px;
+			height: 70px;
+			background:#F5F5F5;
+			margin: 20px 20px 50px 40px;
+			border: 0px;
+			cursor: pointer;
+		}
+		.content_title{
+			padding:30px 0 0 15px;
+		}
+		.contents>img{
+			width: 40px;
+			height: 40px;
+			margin: 13px;
+		}
+		
+		.contents .cons{
+			margin-left: 10px;
+			line-height: 30px;
+		}
+		
+		 .modal-dialog{
+			width: 470px;
+			height:370px ;
+			border: 1px solid #CCCCCC;
+			margin: 100px auto;
+			border-radius: 5px;
+		}
+		.modal-header{
+			    font-size: 20px;
+    			text-align: center;
+    			padding: 12px;
+    			background: #cccc;
+    			color: white;
+		}
+		.modal-body{
+			width: 400px;
+			margin-left: 50px;
+		}
+		
+		.modal-body>h4{
+			font-weight: 400;
+			font-size:16px;
+			margin: 20px 0 0 -18px;
+		}  
+		.container {
+                position: absolute;
+                top: 38%;
+                left: 54%;
+                margin: 0px 0 0 -235px;
+                padding-top: 18px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .container p{
+                font-family: "微软雅黑";
+                color: #888;
+            }
+            .val-box {
+                display: inline-block;
+                height: 25px;
+                width: 350px;
+                text-align: center;
+                position: relative;
+                background: #FFFFFF;
+            }
+
+            .val-box input[type=text] {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 340px;
+                opacity: 0.9;
+                z-index: -999;
+                outline: none;
+                
+            }
+
+            .val-box div {
+                width: 50px;
+                height: 30px;
+                border: 0px;
+                border-bottom: 1px solid #CCCCCC;
+                float: left;
+                margin: 2px 3px;
+                z-index: 5;
+                font-size: 1.5em;
+                font-family: arial;
+                font-weight: 530;
+                text-align: center;
+                line-height: 1.5em;
+                cursor: text;
+                /*box-shadow: 0px 0 13px rgba(100, 100, 100, .5);*/
+            }
+            .val-box .available {
+                 border-bottom: 1px solid #86B1F4;
+                
+            }
+            
+            .times{
+            	font-size: 15px;
+            	color: darkgray;
+            	margin-top: 15px;
+            	background: white;
+            	float:left;
+            	display: none;
+            }
+            .modal-footers{
+            	width: 100px;
+            	margin: 150px 0 0 200px;
+            	color: #86B1F4;
+            	font-size: 15px;
+            	cursor: pointer;
+            }

@@ -1,0 +1,171 @@
+package com.gt.dao;
+
+import static org.hibernate.criterion.Example.create;
+
+import java.util.List;
+
+import org.hibernate.LockMode;
+import org.hibernate.Query;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.gt.dao.comm.HibernateDaoSupport;
+import com.gt.entity.FscoreSetting;
+
+/**
+ * A data access object (DAO) providing persistence and search support for
+ * FscoreSetting entities. Transaction control of the save(), update() and
+ * delete() operations can directly support Spring container-managed
+ * transactions or they can be augmented to handle user-managed Spring
+ * transactions. Each of these methods provides additional information for how
+ * to configure it for the desired type of transaction control.
+ * 
+ * @see com.gt.entity.FscoreSetting
+ * @author MyEclipse Persistence Tools
+ */
+@Repository
+public class FscoreSettingDAO extends HibernateDaoSupport {
+	private static final Logger log = LoggerFactory.getLogger(FscoreSettingDAO.class);
+	// property constants
+	public static final String VERSION = "version";
+	public static final String TYPE = "type";
+	public static final String SCORE = "score";
+
+	public void save(FscoreSetting transientInstance) {
+		log.debug("saving FscoreSetting instance");
+		try {
+			getSession().save(transientInstance);
+			log.debug("save successful");
+		} catch (RuntimeException re) {
+			log.error("save failed", re);
+			throw re;
+		}
+	}
+
+	public void delete(FscoreSetting persistentInstance) {
+		log.debug("deleting FscoreSetting instance");
+		try {
+			getSession().delete(persistentInstance);
+			log.debug("delete successful");
+		} catch (RuntimeException re) {
+			log.error("delete failed", re);
+			throw re;
+		}
+	}
+
+	public FscoreSetting findById(java.lang.Integer id) {
+		log.debug("getting FscoreSetting instance with id: " + id);
+		try {
+			FscoreSetting instance = (FscoreSetting) getSession().get("com.gt.entity.FscoreSetting", id);
+			return instance;
+		} catch (RuntimeException re) {
+			log.error("get failed", re);
+			throw re;
+		}
+	}
+
+	public List<FscoreSetting> findByExample(FscoreSetting instance) {
+		log.debug("finding FscoreSetting instance by example");
+		try {
+			List<FscoreSetting> results = (List<FscoreSetting>) getSession().createCriteria("com.gt.entity.FscoreSetting")
+					.add(create(instance)).list();
+			log.debug("find by example successful, result size: " + results.size());
+			return results;
+		} catch (RuntimeException re) {
+			log.error("find by example failed", re);
+			throw re;
+		}
+	}
+
+	public List findByProperty(String propertyName, Object value) {
+		log.debug("finding FscoreSetting instance with property: " + propertyName + ", value: " + value);
+		try {
+			String queryString = "from FscoreSetting as model where model." + propertyName + "= ?";
+			Query queryObject = getSession().createQuery(queryString);
+			queryObject.setParameter(0, value);
+			return queryObject.list();
+		} catch (RuntimeException re) {
+			log.error("find by property name failed", re);
+			throw re;
+		}
+	}
+
+	public List<FscoreSetting> findByVersion(Object version) {
+		return findByProperty(VERSION, version);
+	}
+
+	public List<FscoreSetting> findByType(Object type) {
+		return findByProperty(TYPE, type);
+	}
+
+	public List<FscoreSetting> findByScore(Object score) {
+		return findByProperty(SCORE, score);
+	}
+
+	public List findAll() {
+		log.debug("finding all FscoreSetting instances");
+		try {
+			String queryString = "from FscoreSetting";
+			Query queryObject = getSession().createQuery(queryString);
+			return queryObject.list();
+		} catch (RuntimeException re) {
+			log.error("find all failed", re);
+			throw re;
+		}
+	}
+
+	public FscoreSetting merge(FscoreSetting detachedInstance) {
+		log.debug("merging FscoreSetting instance");
+		try {
+			FscoreSetting result = (FscoreSetting) getSession().merge(detachedInstance);
+			log.debug("merge successful");
+			return result;
+		} catch (RuntimeException re) {
+			log.error("merge failed", re);
+			throw re;
+		}
+	}
+
+	public void attachDirty(FscoreSetting instance) {
+		log.debug("attaching dirty FscoreSetting instance");
+		try {
+			getSession().saveOrUpdate(instance);
+			log.debug("attach successful");
+		} catch (RuntimeException re) {
+			log.error("attach failed", re);
+			throw re;
+		}
+	}
+
+	public void attachClean(FscoreSetting instance) {
+		log.debug("attaching clean FscoreSetting instance");
+		try {
+			getSession().lock(instance, LockMode.NONE);
+			log.debug("attach successful");
+		} catch (RuntimeException re) {
+			log.error("attach failed", re);
+			throw re;
+		}
+	}
+	
+	public List<FscoreSetting> list(int firstResult, int maxResults,
+			String filter,boolean isFY) {
+		List<FscoreSetting> list = null;
+		log.debug("finding FscoreSetting instance with filter");
+		try {
+			String queryString = "from FscoreSetting "+filter;
+			Query queryObject = getSession().createQuery(queryString);
+			queryObject.setCacheable(true);
+			if(isFY){
+				queryObject.setFirstResult(firstResult);
+				queryObject.setMaxResults(maxResults);
+			}
+			list = queryObject.list();
+		} catch (RuntimeException re) {
+			log.error("find FscoreSetting by filter name failed", re);
+			throw re;
+		}
+		return list;
+	}
+}

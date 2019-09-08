@@ -1,0 +1,25 @@
+[INFO ][2019-01-04 18:48:41,351][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-04 18:48:41,353][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-04 18:48:41,354][HttpClientUtils:58] 请求入参：headers={"content-type":"application/json"}
+[INFO ][2019-01-04 18:48:41,354][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-04 18:48:42,341][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-04 19:11:29,905][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-04 19:11:29,907][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-04 19:11:29,908][HttpClientUtils:58] 请求入参：headers={"content-type":"application/json"}
+[INFO ][2019-01-04 19:11:29,908][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-04 19:11:30,203][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 14:07:05,877][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 14:07:05,897][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 14:07:05,897][HttpClientUtils:58] 请求入参：headers={"content-type":"application/json"}
+[INFO ][2019-01-07 14:07:05,898][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 14:07:06,651][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 14:17:23,698][HttpClientUtils:56] 进入post请求方法...
+[INFO ][2019-01-07 14:17:23,700][HttpClientUtils:57] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 14:17:23,701][HttpClientUtils:58] 请求入参：headers={"content-type":"application/json;charset=UTF-8"}
+[INFO ][2019-01-07 14:17:23,701][HttpClientUtils:59] 请求入参：data={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[ERROR][2019-01-07 14:17:24,078][HttpClientUtils:91] 响应失败，状态码：406
+[INFO ][2019-01-07 14:22:36,717][HttpClientUtils:251] 进入get请求方法...
+[INFO ][2019-01-07 14:22:36,720][HttpClientUtils:252] 请求入参：URL= http://192.168.0.193:8081/appApi.html
+[INFO ][2019-01-07 14:22:36,767][HttpClientUtils:253] 请求入参：params={"sign":"6B3000416D314DCAE6D53DE5D8D511B9","email":"17880612013","api_key":"359b8b8b-beb8-4652-b588-9f4d72651930","action":"UserLogin","password":"123qwe"}
+[INFO ][2019-01-07 14:22:37,050][HttpClientUtils:271] 请求地址：http://192.168.0.193:8081/appApi.html?sign=6B3000416D314DCAE6D53DE5D8D511B9&email=17880612013&api_key=359b8b8b-beb8-4652-b588-9f4d72651930&action=UserLogin&password=123qwe
+[ERROR][2019-01-07 14:22:37,106][HttpClientUtils:282] 响应失败，状态码：406

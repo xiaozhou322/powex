@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.record .datainput {
+	background: #f1f1f1;
+	border: none;
+    width: 100px;
+    outline: none;
+}
+
+.record .databtn {
+	padding: 5px 15px;
+	cursor: pointer;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.record .datatime:hover {
+	color: #fff;
+	background: #2a86fe;
+}
+
+.record .datatime-sel {
+	color: #fff;
+	background: #2a86fe;
+}
+
+.record .datatips {
+	padding: 5px 5px;
+}
+.record .typeselect{
+	width: 110px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.panel-heading {
+    background: #fff;
+}

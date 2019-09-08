@@ -1,0 +1,187 @@
+/*common*/
+body{font-family:"微软雅黑"; overflow-y:hidden; }
+.tradeMain{width:100%; height:auto; padding:55px 5px 5px; background:#1b1e2e; color:#8b91b7; font-size:14px;}
+.coinChoice{/*width:340px; margin-left:30px;*/}
+.coinType{width:auto; font-size:16px; line-height:22px; color:#fff; padding:0 18px 0 0; position: relative; cursor: pointer; text-align:center;}
+.coinType p{margin-bottom:0;}
+.coinType:after{content:"";width: 0;height: 0;border: 5px solid transparent;border-top:8px solid #fff; position: absolute; right:0;top:16px;}
+.coinTypeChoice{width:500px; background:#24273b; box-shadow:0 0 30px #000; position: absolute; left:0; top:51px; z-index:99999; padding-bottom:10px; border-radius:4px;  display:none;}
+.coinTypeChoice h2{font-size:17px; text-align:left; border-bottom: 1px solid #363a59; margin:0 0 8px 0; padding:15px 20px 9px;}
+.coinTypeChoice h2 span{border-bottom: 2px solid #4d9cec; color:#4d9cec;}
+.coinTypeChoice ol{overflow:hidden;margin-bottom:0;}
+.coinTypeChoice ol li{padding:0 10px 5px; width:33.3%; float:left; color:#8b91b7;}
+.coinTpyeData{max-height:400px; overflow-x:hidden; overflow-y:auto;}
+.coinTypeChoice table{width:100%; font-size:16px; color:#8b91b7;}
+.coinTypeChoice table tr:hover{background:#1b1e2e;}
+.coinTypeChoice table td{font-size:15px; padding:5px 10px; width:33.3%;}
+.coinTypeChoice table td:nth-child(2){color:#fff;}
+
+/*开关*/
+.switch{position: relative;display:block;width:31px;height:14px;border-radius: 16px;line-height:14px;-webkit-tap-highlight-color:rgba(255,255,255,0); margin:16px 0 0 36px!important;}
+.switch-on {border: 1px solid white;box-shadow: white 0px 0px 0px 16px inset;transition: border 0.4s, box-shadow 0.2s, background-color 1.2s;background-color: white;cursor: pointer; text-align:right; padding:0 5px 0 0;}
+.switch-on em{color:#fff;}
+#coinSwitch{margin:8px 0 0 30px;}
+#coinSwitch em{font-size:13px; display:block; line-height:25px;}
+.slider1{position: absolute;display: inline-block;width:10px;height:10px;background: white;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);border-radius: 50%;left:1px;top:1px;}
+.switch-on .slider1 {left:1px;transition: background-color 0.4s, left 0.2s;}
+.switch-off {border: 1px solid #dfdfdf;transition: border 0.4s, box-shadow 0.4s;background-color: rgb(255, 255, 255);box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset;background-color: rgb(255, 255, 255);cursor: pointer; text-align:left;padding:0 0 0 5px;}
+.switch-off .slider1 {left:18px;transition: background-color 0.4s, left 0.2s;}
+.switch-on.switch-disabled{opacity:.5;cursor:auto;}
+.switch-off.switch-disabled{background-color:#F0F0F0 !important;cursor:auto;}
+
+.coinDataDetail{padding:6px 0 5px 20px;}
+.coinDataDetail ul{margin:0 0 0 120px;}
+.coinDataDetail ul li{width:auto; margin-right:80px; text-align:center;}
+.coinDataDetail ul li span{display:block; line-height:23px; color:#fff;}
+
+.tradeRight{width:680px; height:auto; border-radius:4px;}
+.right_up{height:510px;}
+.buy_sell{width:49.2%; height:100%; background:#24273b; /*padding:5px 20px;*/ margin-right:5px; overflow:hidden;}
+.tradingTit{padding:14px 0;border-bottom: 1px solid #4a507b;}
+.tradingTit ul{margin-bottom:0;}
+.tradingTit ul li{width:auto; color:#fff; padding:0 5px; font-size:18px; line-height:30px; cursor:pointer;}
+.tradingTit ul li:nth-child(2){margin:0 30px;}
+.tradingTit ul li.active{color:#4d9cec; border-bottom: 2px solid #4d9cec;}
+.tradePoint{position: relative; height:30px; line-height:30px;}
+.choicePoint{width:76px; appearance:none;-moz-appearance:none;-webkit-appearance:none; background:none; height:26px; padding:0 0 0 5px; color:#fff;}
+.choicePoint option{background:#24273b;}
+.icon{width: 0;height: 0;border: 5px solid transparent;border-top:8px solid #fff; position: absolute; right:3px;top:14px;}
+.tradingMain{width:100%; height:100%; overflow:hidden;}
+.tradingMain ol{margin-bottom:0; padding:10px 20px 0;}
+.tradingMain ol li{width:33.3%; text-align:center;}
+.tradingDate{height:95%; /*padding-top:8px; */display:none; position:relative; overflow:hidden;}
+.tradingDate.active{display:block;}
+#marketDepthSell,#marketDepthBuy{width:100%;overflow:hidden; position:absolute;}
+#marketDepthSell{left:0; bottom:30px;}
+#marketDepthBuy{left:0; top:30px;}
+/*.tradingDate .buyPart,.sellPart{max-height:370px; overflow-y:auto;}*/
+.tradingDate ul{margin-bottom:0;}
+.tradingDate ul li{height:22px; font-size:14px; line-height:22px; padding:0 20px; overflow:hidden;}
+.tradingDate ul li:hover{background:#1b1e2e; cursor:pointer;}
+
+.tradingDate ul li span{display:block; float:left; width:33.3%; text-align:center;}
+.tradePrice{color:#e66653;}
+.tradeSellPrice{color:#46a656;}
+.tradeAmount{color:#fff;}
+.coinswitch{margin-bottom: 0;text-align: center;color: #46a656;font-size:16px;position: absolute;left: 0;top: 47%;margin: 0; height:30px; line-height: 30px;background: #1b1e2e;width: 100%; padding:0 20px;}
+
+
+.tradeLeft{width:64.1%;}
+.chartCon{overflow:hidden;}
+.chartHeader{height:60px; border-bottom: 1px solid #4a507b; background:#24273b;}
+.chartHeader>ul{display:block; /*width:100%; */margin-bottom:0;}
+.chartHeader>ul>li{font-size:14px; color:#fff; width:144px; padding:16px 10px 16px 0; text-align:center; position: relative; cursor:pointer;}
+.chartHeader>ul>li i{content: "";width: 10px;height: 10px;border-left: 2px solid #fff;border-top: 2px solid #fff;-webkit-transform: rotateZ(225deg);-moz-transform: rotateZ(225deg);-ms-transform: rotateZ(225deg);-o-transform: rotateZ(225deg);transform: rotateZ(225deg);position: absolute;right:11px;top:24px; transition:all 0.3s;}
+.chartHeader>ul>li:hover{color:#4d9cec;}
+.chartHeader>ul>li:hover i{border-color:#4d9cec; -ms-transform: rotateZ(45deg); -webkit-transform: rotateZ(45deg); -moz-transform: rotateZ(45deg); transform: rotateZ(45deg); top:28px;}
+.chartHeader .subTimes{width:100%; position: absolute; left:0; top:59px;z-index:9999; display:none;}
+.chartHeader .subTimes li{background:#1b1e2e; line-height:32px; font-size:14px; text-align:center; cursor:pointer;}
+.chartHeader .subTimes li:hover{background:#2a304b;}
+.chartHeader>ul>li:hover .subTimes{display:block;}
+.kline-nav{padding:18px 10% 12px 0;}
+.kline-nav span{ padding:0 20px; color:#fff; font-size:18px; cursor:pointer;}
+.kline-nav span.active{color:#4d9cec;}
+.chartMax{display:inline-block;margin:22px 50px 0 0; cursor:pointer;}
+.chartMax img{display:block;}
+.chartMain{width:100%; height:580px; background:#24273b url(/static/front/images/index/load.gif) no-repeat center; /*margin-bottom:10px;*/; position:relative; border-radius:4px; overflow:hidden;}
+.maxShow{width: 100%!important;height: 100%!important; padding-top:50px; position:fixed;left:0;top:0;right:0;bottom:0;z-index:99999;background:#24273b;}
+.closeMax{border: 1px solid #8b91b7; position:absolute; right:20px; top:20px; z-index: 99999; padding:2px 10px; cursor:pointer; transition:all 0.3s; display:none;}
+.closeMax:hover{background:#8b91b7; color:#fff;}
+
+
+
+/*.chartMain>div:nth-child(1){width:100%!important; height:100%!important;}
+canvas{width:100%!important; height:auto!important;}*/
+/*#kline{width:100%; height:450px;}
+*/.marketTrade{width:100%; height:285px; background:#24273b; margin-top:5px; border-radius:4px; padding:0 20px 33px; position:relative;}
+.buyCon{width:48.5%;}
+.buyTit{ line-height:42px;}
+.buyTit h3{font-size:18px; font-weight:normal; line-height:42px; margin:0;}
+.trade_tr{width:100%; height:36px; line-height:36px; position: relative;}
+.buyCon p{margin-bottom:0;}
+.trade_txt{width:100%;height:36px; line-height:36px;  display:block; background:#2c2f48; border-radius:4px; padding:0 15% 0 25%; color:#fff; font-size:16px; font-family:"微软雅黑";}
+.tr_l{/*position: absolute; left:20px; top:14px; */width:81px; line-height:36px; font-size:14px; color:#8b91b7; margin-right:10px; float:left;}
+.tr_r{position: absolute; right:20px; top:14px; line-height:14px;color:#8b91b7;font-size:14px; }
+input.trade_txt:focus{border:none!important; box-shadow:none!important;}
+input.trade_txt{padding:0; width:auto; text-align:center; float:left;}
+.trade_tr.trade_txt{padding:0 0 0 5px}
+.buyCNY{/*padding:14px 0 14px 25%;*/ font-size:12px; color:#8b91b7;}
+::-webkit-input-placeholder{color:#474b6d;}
+:-moz-placeholder{color:#474b6d;}
+::-moz-placeholder{color:#474b6d;}
+:-ms-input-placeholde{color:#474b6d;}
+.numBar{margin:15px 0;}
+.numBar span{font-size:12px; display:inline-block; text-align:center; height:27px; line-height:27px; border: 1px dashed #4a507b; width:22.5%; margin-right:2%; border-radius:4px; cursor:pointer; transition:all 0.3s;}
+.numBar span.active{background:#4a507b; color:#fff;}
+.numBar span:hover{background:#4a507b; color:#fff;}
+.buy_btn{display:block; width:100%; height:36px; line-height:36px; text-align:center; font-size:18px; margin:6px 0 0 0; color:#fff; border-radius:4px; background:#46a656; cursor:pointer;}
+.buy_btn:hover{opacity:0.8;}
+.sell_btn{background:#e66653;}
+
+.marketSuc{width:50%; height:100%; overflow:hidden; background:#24273b; border-radius:4px;}
+.marketSuc .tit{width:100%; height:60px; border-bottom: 1px solid #2c2f48; text-align:center; line-height:60px; font-size:18px; color:#fff;}
+.marketSuc span{width:33.3%; display:block; text-align:center;}
+.marketSucDateTit{padding:0 20px;}
+.marketSucDateTit{padding-top:10px;}
+.marketSucDate{height:90%!important; overflow-y:auto;}
+.marketSucDate li{height:20px; padding:0 20px; line-height:20px; overflow:hidden;}
+/*.marketSucDate li:hover{background:#1b1e2e;}*/
+
+.marketSuc .amount{color:#fff;}
+
+.marketEntruts{background:#24273b; height:220px; margin-top:5px; overflow:hidden;}
+.EntrutsTit ul{height:42px; border-bottom: 1px solid #363a59; line-height:42px; padding-left:10px; margin-bottom:0;}
+.EntrutsTit ul li{margin-right:96px; color:#fff; padding-left:8px; cursor:pointer;}
+.EntrutsTit ul li.active{color:#4d9cec; position: relative;}
+.EntrutsTit ul li.active:before{content:""; width:2px; height:14px; background:#4d9cec; position: absolute; left:0; top:15px;}
+.EntrutsCon{padding:0 15px;padding-bottom:10px;}
+.EntrutsCon table{width:100%;}
+.EntrutsCon table th,.EntrutsDate td{padding:2px 0; width:14%; text-align:center;}
+.EntrutsCon table th:nth-child(1),.EntrutsDate td:nth-child(1){width:18%;}
+.EntrutsCon table th:nth-child(2),.EntrutsDate td:nth-child(2){width:8%;}
+#entrutsHisData,#entrutsCurData{height:142px;  overflow-y:auto;}
+#entrutsHisData tr:hover,#entrutsCurData tr:hover{background:#1b1e2e;}
+#entrutsHisData td,#entrutsCurData td{padding:0; height:24px; line-height:24px;}
+/*#entrutsHisData td:nth-child(1),#entrutsCurData td:nth-child(1){padding-left:20px;}
+*/
+
+.mardeTradeWarp{width:100%; height:100%; background:rgba(0,0,0,.6); border-radius:4px; text-align:center; font-size:16px; position: absolute; left:0; top:0; z-index:9999;}
+.mardeTradeWarp p{padding-top:150px; color:#eee;}
+.mardeTradeWarp p a{color:#4d9cec; border-bottom: 1px solid #4d9cec; padding:0 5px; font-size:18px;}
+
+
+.marketEntruts,.chartCon,.buy_sell,.chartHeader{border-radius:4px;}
+.noMargin{margin-right:0!important;}
+.upColor,.buyColor,.market-font-buy{color:#e66653!important;}
+.downColor,.sellColor,.market-font-sell{color:#46a656!important;}
+.colorBlue{color:#4d9cec!important;}
+.textL{text-align:left!important;}
+.textC{text-align:center!important;}
+.textR{text-align:right!important;}
+
+@media screen and (max-width:1400px){
+.tradeRight{width:500px;}
+.marketSuc{width:49.8%;}
+.numBar span{width:22%;}  
+.chartHeader>ul>li{width:120px;}
+.tr_l{left:6px; top:12px; margin-right:5px;}
+.tr_r{right:6px; top:11px;}
+.EntrutsCon table th{font-size:13px; line-height:24px;}
+#entrutsHisData td,#entrutsCurData td{font-size:13px; line-height:20px;}
+input.trade_txt{width:110px; padding:0; text-align:left; font-size:14px;}
+.tradingDate ul li{padding:0 10px;}
+.marketTrade{padding:0 10px 33px;}
+}
+
+
+
+
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {width:6px;}/* 滚动槽 */
+::-webkit-scrollbar-track {background:#1b1e2e; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px;}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {border-radius:10px; background:#3f4365; /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);-box-shadow: inset 0 0 6px rgba(0,0,0,1);*/}
+::-webkit-scrollbar-thumb:window-inactive { background:#3f4365;}
+
+

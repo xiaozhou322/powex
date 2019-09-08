@@ -1,0 +1,387 @@
+body {
+	background: url(../../images/exchange/bg@3x.png)no-repeat center;
+	background-size: 100% 100%;
+	height: 20rem;
+}
+
+header {
+	background: url(../../images/exchange/quanminkuanghuang@3x.png)no-repeat center;
+	background-size: 100% 100%;
+	height: 2rem;
+	margin: 0.3rem 0 0.3rem 0.35rem;
+	width: 90%;
+}
+
+.draw_lottery .draw_num {
+	text-align: center;
+}
+
+.draw_num img {
+	width: 4rem;
+}
+
+.draw_content .d_title {
+	/*height: 0.5rem;*/
+	font-size: 0.3rem;
+	color: white;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	margin: 0.5rem 0 0 0;
+}
+
+.draw_content .d_cons {
+	width: 6rem;
+	color: white;
+	font-size: 0.28rem;
+	margin: 0 auto;
+	height: 4rem;
+	line-height: 0.6rem;
+	letter-spacing: 1px;
+	margin-top: 0.1rem;
+}
+
+.draw_content .d_hint {
+	width: 6rem;
+	color: #FEF700;
+	font-size: 0.26rem;
+	margin: 0rem auto 1rem auto;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	letter-spacing: 2px;
+}
+
+.d_click {
+	margin: 0.5rem 0;
+}
+
+
+/* 走马灯 */
+
+.wanEthUL3Box {
+	height: 3rem;
+	overflow: hidden;
+	position: relative;
+}
+
+.wanEthUL3Box .wanEthUL3Td {
+	clear: both;
+	overflow: hidden;
+	width: 7rem;
+	margin: 0 auto;
+}
+
+.wanEthUL3Prize {
+	width: 6.8rem;
+	margin: 0.4rem auto 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+
+.wanEthUL3Prize .wanEthUL3tit {
+	width: 6.8rem;
+	height: 0.8rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.8rem;
+	background: url(../../images/exchange/list@3x.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+.wanEthUL3Prize ul li {
+	float: left;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+}
+
+.wanEthUL3Prize .wanEthUL3tit li:nth-child(1) {
+	width: 25%;
+}
+
+.wanEthUL3Prize .wanEthUL3tit li:nth-child(2) {
+	width: 24%;
+}
+
+.wanEthUL3Prize .wanEthUL3tit li:nth-child(3) {
+	width: 50%;
+}
+
+.wanEthUL3Prize .wanEthUL3Td li {
+	width: 90%;
+	line-height: 0.7rem;
+	margin-left:0.2rem;
+	font-weight: 100;
+	height: 0.7rem;
+	border-bottom: 1px solid #fff;
+}
+
+.wanEthUL3Prize .wanEthUL3Td li:last-child {
+	border: none;
+}
+
+
+
+.wanEthUL3Td li p {
+	float: left;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+}
+
+.wanEthUL3Td li p:nth-child(1) {
+	width: 20%;
+}
+
+.wanEthUL3Td li p:nth-child(2) {
+	width: 30%;
+}
+
+.wanEthUL3Td li p:nth-child(3) {
+	width: 46%;
+}
+
+.wanEthUL2 {
+	width: 7.2rem;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+
+.wanEthUL2 li {
+	float: left;
+}
+
+.wanEthUL2 li:nth-child(1) {
+	color: #fbf700;
+	font-size: 0.26rem;
+	margin-left: 0.6rem;
+}
+
+.wanEthUL2 li:nth-child(2) {
+	width: 3.5rem;
+	text-align: center;
+	font-size: 0.26rem;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.3rem;
+	color: #fbf700;
+}
+
+.wanEthUL2 li:nth-child(2) span {
+	font-size: 0.3rem;
+	padding-left: 0.1rem
+}
+
+.wanEthUL2 li select {
+	background: #c13d57;
+	border: 1px solid #fbf700;
+	color: #fbf700;
+	width: 1.5rem;
+	height: 0.35rem;
+	padding-left: 0.1rem;
+	margin-left: 0.1rem;
+	cursor: pointer;
+	/* border-radius: 0.4rem; */
+}
+
+
+/* 抽奖功能 */
+
+.wanEthUL3 {
+    margin-top: 0.4rem;
+    margin-bottom: 0.25rem;
+}
+
+.wanEthUL3 li {
+	text-align: center;
+	height: 2rem;
+}
+
+.wanEthUL3 li:nth-child(1) {
+	background: url(../../images/exchange/datawanETH.png) no-repeat center;
+	height: 1.5rem;
+    width: 7rem;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.wanEthUL3 li:nth-child(1) .wanEthUL3Span {
+ 	display: block;
+    height: 1.05rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 0.5rem;
+    color: #fff;
+    overflow: hidden;
+}
+
+.wanEthnum {
+				background: url(../../images/exchange/num1.png) top center repeat-y;
+				float: left;
+				width: 127px;
+				height: 1rem;
+			    margin-right: 0.06rem;
+			    zoom: 0.65;
+			    margin-top: 0.15rem;
+			}
+/*摇号码位置*/
+			.wanEthnum:nth-child(1){    width: 0.55rem}
+			.wanEthnum:nth-child(2){    width: 0.7rem;}
+			.wanEthnum:nth-child(3){    width: 0.56rem;}
+			.wanEthnum:nth-child(4){    width: 0.7rem}
+			.wanEthnum:nth-child(5){    width: 0.6rem;}
+			.wanEthnum:nth-child(6){    width: 0.66rem;}
+			.wanEthnum:nth-child(7){    width: 0.6rem;}
+			.wanEthnum:nth-child(8){    width: 0.67rem;}
+			.wanEthnum:nth-child(9){    width: 0.6rem;}
+
+/*弹窗*/
+
+.wanEthModule {
+	    height: 4rem;
+    width: 5rem;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 16%;
+    z-index: 100;
+    background: rgba(98, 39, 51, 0.8);
+    box-shadow: 0px 2px 9px 0px rgba(183, 183, 183, 0.32);
+    color: #fff;
+    border-radius: 16px;
+    display:none;
+			}
+
+.wanEthModule h3 {
+    font-size: 0.26rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.4rem;
+    letter-spacing: 3px;
+}
+
+.wanEthModule h4 {
+    font-size: 0.26rem;
+    color: #fff;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 0.3rem;
+    letter-spacing: 3px;
+}
+
+.wanEthModule h4 a {
+	color: #fbf700;
+	padding: 0 0.05rem;
+}
+
+.wanEthModule ul {
+    font-size: 0.26rem;
+    color: #fff;
+    margin: 0.1rem;
+    overflow: auto;
+    height: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.wanEthModule ul li {
+    height: 0.3rem;
+    font-size: 0.26rem;
+}
+
+.wanEthModuleClose {
+ 	width: 0.5rem;
+    position: absolute;
+    right: 0.3rem;
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+
+select option{
+	font-size: 0.15rem;
+}
+
+
+/* 认证弹窗 */
+.realfixed{
+    height: 3.5rem;
+    width: 4.5rem;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 12em;
+    left: 50%;
+    margin-left: -2.2rem;
+    z-index: 100;
+    background: white;
+    box-shadow: 0px 2px 9px 0px rgba(183, 183, 183, 0.32);
+    display:none;
+}
+.realfixed ul h3{
+    text-align: right;
+    padding: 0.1rem 0.3rem 0 0;
+}
+.realfixed ul h3>img{
+    cursor: pointer;
+    width: 0.25rem;
+}
+
+.realfixed ul li{
+    color: #FF481F;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    margin-top: 0.3rem;
+}
+.realfixed ul li p{
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+}
+.realfixed ul li a{
+    color: #2269D4;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    height: 0.57rem;
+    display: block;
+}
+.realfixed ul li .lotterKYCBtn{
+     background: #2269D4;
+    width: 2rem;
+    height: 0.6rem;
+    color: #fff;
+    font-size: 0.26rem;
+    cursor: pointer;
+    margin: 0 auto;
+    line-height: 0.6rem;
+}
+.realfixed ul li button{
+    background: #2269D4;
+    width: 2rem;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 0.26rem;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.realfixed ul li .lotterKYCBtn label{cursor: pointer;}
+.realfixed ul li span{
+    display: block;
+    font-size:0.18rem;
+    line-height:0.5rem;
+}
+.realModule{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+    z-index: 99;
+    display:none;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.withdraw .addtips{
+	position: absolute;
+	top: 7px;
+    right: -34px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 5px;
+    font-weight:bold;
+}
+.withdraw .addtips:hover{
+	color:#4f94e7;
+	text-decoration: underline;
+}
+.withdraw .amounttips{
+	width: 100%;
+	height: 56px;
+	line-height:28px;
+	font-size: 14px;
+/*	border: #dcdcdc dotted 1px;
+*/	display: block;
+	margin-top: 5px;
+}
+.withdraw .amounttips>span{
+	display: block;
+	padding-left:10px;
+}
+.withdraw .prov{
+	padding: 6px;
+}

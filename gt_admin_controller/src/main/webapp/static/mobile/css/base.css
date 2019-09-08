@@ -1,0 +1,39 @@
+*{margin:0;padding:0;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}
+html{font-size:28px;}
+/*body,button,input,select,textarea{font:14px/2 PingFangRegular , "微软雅黑", Helvetica, sans-serif;}*/
+
+
+body{font-family:'PingFangMedium'; font-size:14px; line-height:28px;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+small{font-size:12px;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{color:#192637;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#666;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;outline: none; border:none; background:none;}
+input{font-size:0.48rem; line-height:0.8rem;}
+table{border-collapse:collapse;border-spacing:0;}
+html,body{ color:#666;}
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.clear{clear: both;}
+.clear:after{content: "";display: table;clear: both;overflow: hidden;}
+
+/*@media (max-width: 768px) {
+	.mg {width: 100%;padding: 0 10px;}
+}
+@media (min-width: 769px) and (max-width: 992px) {
+	.mg {margin: 0 auto;width: 760px;padding: 0 10px;}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	.mg {margin: 0 auto;width: 980px;padding: 0 10px;}
+}
+@media (min-width: 1201px) {
+	.mg {margin: 0 auto;width: 1000px;padding: 0 10px;}
+}*/

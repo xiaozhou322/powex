@@ -1,0 +1,109 @@
+@charset "UTF-8";
+* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background: url(../../images/exchange/sheuqn_banner@2x.png) no-repeat 100% 100%;
+			width: 100%;
+			height: 2.35rem;
+			background-size: 100%;
+			color: white;
+		}
+		
+		.h_title {
+			padding-top: 1rem;
+			font-size: 0.45rem;
+			text-align: center;
+		}
+		
+		section {
+			background: #F9FBFF;
+			height: 100%;
+		}
+		
+		.sec_title p {
+			color: #000821;
+			font-size: 0.38rem;
+			text-align: center;
+			padding-top: 0.10rem;
+		}
+		
+		.thick_line {
+			margin: auto;
+			border: 3px solid #3B4B7C;
+			width: 3.10rem;
+			margin-top: 0.12rem;
+		}
+		
+		.fine_line {
+			border: 1px dashed #3B4B7C;
+			width: 2rem;
+			margin: auto;
+			margin-top: 0.09rem;
+		}
+		
+		.sec_con {
+			background: url(../../images/exchange/p@2x.png) no-repeat 100% 100%;
+			background-size: 100%;
+			width: 45%;
+			height: 3.4rem;
+			margin: 0.26rem 0 0 0;
+			float: left;
+		}
+		
+		.sec_con:nth-child(1){
+			margin-left: 5%;
+		}
+		
+		.sec_con:nth-child(3){
+			margin-left: 5%;
+		}
+		
+		.sec_con ul {
+			width:100%;
+			height: 2.90rem;
+			text-align: center;
+			line-height: 0.43rem;
+		}
+		
+		.sec_con ul img:nth-child(1) {
+			width: 0.99rem;
+			height: 0.70rem;
+			margin-left: 0.78rem;
+			margin-top: 0.15rem;
+		}
+		
+		.sec_con ul li:nth-child(2) {
+			font-size: 0.29rem;
+			margin-left: 0.20rem;
+			color: #535353;
+		}
+		
+		.sec_con ul li:nth-child(3) {
+			font-size: 0.24rem;
+			margin:0.06rem 0.50rem 0 0.6rem;
+			text-align:center;
+			color: #666666;
+		}
+		
+		.sec_con ul li:nth-child(4) img {
+			width: 0.25rem;
+			height: 0.25rem;
+			margin: 0.17rem;
+		}
+		
+		.f_code {
+			text-align: center;
+			margin-bottom: 1.3rem;
+		}
+		
+		.f_code img{
+			width: 2rem;
+    		height: 2rem;
+    	}
+		.f_code p {
+			font-size: 0.3rem;
+			
+		}

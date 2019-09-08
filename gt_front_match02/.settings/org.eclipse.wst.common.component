@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="gt_front_match02">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="gt_front_api.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gt_front_api/gt_front_api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="gt_front_match02"/>
+        <property name="java-output-path" value="/gt_front_match02/target/classes"/>
+    </wb-module>
+</project-modules>

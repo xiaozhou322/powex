@@ -1,0 +1,233 @@
+.tradeTop{background:#fff;}
+.usdtTrade{width:100%; height:auto;}
+.uTradeTabs{width:100%;}
+.uTradeTabs ul li{width:50%; height:auto;float:left; overflow:hidden; padding:0 0.08rem 0 0; margin-bottom:0.2rem;}
+.uTradeTabs ul li:nth-child(even){padding:0 0 0 0.08rem;}
+.uTradeTabs .tab_nav{display:block;  border: 1px solid #fff; color:#171717; padding:0.3rem; }
+.uTradeTabs li img{width:0.52rem; height:0.52rem; margin:0.2rem 0.08rem 0 0; vertical-align: middle;}
+.uTradeTabs li h2{font-size:0.32rem; font-weight:normal;}
+.uTradeTabs li p{margin-bottom:0; line-height:0.36rem; color:#6f6f6f; font-size:0.24rem;}
+.orange{color:#ff604b;}
+.uTradeTabs li.active1 a{background:#e3ebf8; border-color:#d7dfed;}
+.uTradeTabs li.active2 a{background:#f9eae8; border-color:#e8d4d1;}
+.uTradeTabs li.active3 a{background:#faf3e5; border-color:#f0e9dc;}
+.uTradeTabs li.active4 a{background:#e4e2eb; border-color:#dbd9e2;}
+
+
+
+
+.uTrade_r{width:100%;}
+.tables-title{width:100%; height:auto; /*border-bottom: 2px solid #e8eaee; */background:#fff;/*box-shadow:0 3px 9px 0 rgba(69, 112, 128, 0.14);*/}
+.trade_set .userFace{padding-left:0.3rem;}
+.trade_complete{padding-right:0.3rem;}
+.tables-title .tit{display:block; width:25%; text-align:center; font-size:0.3rem; color:#171717; padding:0.2rem 0.3rem; border-bottom: 1px solid #efefef;}
+.trade_set .tit{width:33.33%;}
+.agentCon{/*box-shadow:0 3px 9px 0 rgba(69, 112, 128, 0.14);*/}
+.table-item{width:100%; height:auto; padding:0.3rem 0 0; background:#fff;margin-bottom:0.2rem; }
+.item_con{padding:0 0.3rem;}
+/*.table-item:nth-child(odd){background:#fff;}*/
+.table-item .tabs{width:25%;  font-size:0.28rem; color:#565656; padding-bottom:0.3rem;text-align: center;}
+.trade_set .tabs{width:33.33%;}
+.spectail_tabs{width:100%; border-top: 1px solid #efefef; padding:0.2rem 0.3rem 0.2rem; overflow:hidden; text-align:center;}
+
+
+.iconTag{width:0.56rem; height:0.56rem; display:block; background:#2269d4; border:5px solid #fff; text-align:center; line-height:0.56rem; font-size:0.18rem; box-shadow:0 1px 5px 0 rgba(71,78,114,.24); border-radius:50%; position: relative; margin:0 0.05rem 0 0; color:#fff;}
+.iconTag:after{content:""; width:0.14rem; height:0.14rem; border-radius:50%; background:#00bc9c; border:3px solid #fff; position: absolute; right:-2px; bottom:-2px;}
+.table-item .uName a{color:#565656;}
+.table-item .uName a:hover{ border-bottom: 1px solid #2269d4; color:#2269d4;}
+.table-item .uName img{width:0.8rem; height:auto; margin:0 auto; display:block;}
+.group-payway i{width:0.28rem; height:0.28rem; border-radius:50%; overflow:hidden; display:inline-block; margin-top:0.1rem;}
+.group-payway i img{display:block; width:100%; height:100%;}
+.rate{margin-top:10px; }
+.table-item .group-btn{/*border-top: 1px solid #efefef;*/ padding:0.2rem 0.6rem 0.2rem 0.4rem;}
+.spectail_tabs .group-btn{padding-right:0;}
+.buyBt{width:1.5rem; height:0.4rem; border: 1px solid #2269d4; border-radius:3px; text-align:center; line-height: 0.4rem; color:#2269d4; font-size:0.28rem; display:inline-block; cursor:pointer;}
+.buyBt.disabled{background:#c6c6c8; color:#fff;}
+.buyBt:hover{opacity:0.8;}
+.sellBt{border-color:#ff5e3a; color:#ff5e3a;}
+
+/*弹窗*/
+.warpForm{width:100%; height:100%; position:fixed; left:0; top:0; bottom:0; right:0; background:rgba(137,137,137,.8); z-index: 999999; display:none;}
+.showBox{width:96%; height:auto; background:#fff; border-radius:4px; box-shadow:0 0 6px #999; position:absolute; left:50%; top:50%; font-size:0.24rem; margin:-56% 0 0 -48%; overflow:hidden;}
+
+.showBox2{margin-top:-4.8rem;}
+.showBox .title{border-bottom: 1px solid #f1f1f1; font-size:0.32rem; line-height:0.6rem; padding:0.3rem;}
+.showBox .title span{display:inline-block; color:#2269d4; font-size:0.24rem; font-weight:normal;}
+.showCon{padding:0.28rem 0.3rem 0.8rem;}
+.sellShowCon{padding-bottom:0.3rem;}
+.rateBox{width:100%; background:#f5f5f5; line-height:32px; font-size:0.28rem; padding:0.3rem 0; text-align:center;}
+.rateBox span{display:block; font-size:0.36rem; line-height:0.4rem; color:#2f2f2f; font-weight:bold;}
+.showBox .tr{width:100%; height:0.7rem; line-height:0.7rem; font-size:0.28rem;}
+.inputBox{background:#f5f5f5; position: relative;}
+.inputBox .inp{width:100%; line-height:35px; background:none; padding-left:15px;}
+.inputBox .all{position: absolute; width:25%; color:#2269d4; text-align:center; right:0; top:0; cursor:pointer;}
+.inputBox .all:before{content:""; width:1px; height:21px; background:#898989; position: absolute; left:0; top:9px;}
+.showBox .inputBox{margin-bottom:0.2rem;}
+.showBox .remind{padding:3px 0 0 0; display:block;}
+.colorRed{color:#e66653;}
+.showBox .btns{margin:0.6rem 0 0 0; text-align:center;}
+.showBox .btns .button{width:auto; height:0.6rem; padding:0 1rem; line-height:0.6rem; border-radius:4px; border: 1px solid #e66653; background:#fff; color:#e66653; display:inline-block; font-size:0.24rem; margin:0 0.1rem; cursor:pointer;} 
+.showBox .btns .button:hover{opacity:0.8;}
+.showBox .btns .button.active{background:#e66653; color:#fff;}
+.showBox .btns .button.cancle{padding:0 0.5rem;}
+.countdown{color:#6f6f6f;}
+.showBox .closed{position: absolute; right:20px; top:8px; color:#5a5a5a; font-size:22px; cursor:pointer;}
+
+/*订单详情*/
+.orderDetailMain{margin-bottom:1rem;}
+.orderDetailMain .TitBread,.title{line-height: 0.6rem; background:#fff; padding:0 0.3rem; font-weight:normal;}
+.orderDetailMain .TitBread{padding:0.2rem 0.3rem; border-top: 1px solid #ddd;}
+.TitBread a{color:#2269d4; margin:0 0 0 0.1rem; padding-left:0.35rem; background-size:8% auto; position: relative;}
+.TitBread a:before{content: "";width:0.15rem;height:0.15rem;border-left: 2px solid #488bef;border-top: 2px solid #488bef;-webkit-transform: rotateZ(135deg);-moz-transform: rotateZ(135deg);-ms-transform: rotateZ(135deg);-o-transform: rotateZ(135deg);transform: rotateZ(135deg);position: absolute;left:0.03rem;top: 18px;}
+.orderInfo,.payType,.payNote{background:#fff; box-shadow:0 1px 3px 0 rgba(71,78,114,.14);}
+.order_num{padding:0.2rem 0.3rem;}
+.orderDetailMain .title{margin-top:0.3rem;border-bottom: 1px solid #efefef; }
+.orderDetailMain .times{padding-left:0.3rem; background:url(/static/mobile/css/agent/images/clock.png) no-repeat 0 0.17rem; background-size:18% auto;}
+.orderDetailMain .times2{background-size:18% auto;}
+.orderInfo ul{padding:0 0.3rem; margin:0;}
+.orderInfo ul li{width:30%; padding:0.4rem 0;}
+.orderInfo .list_tr li{padding:0 0 0.3rem;}
+.orderInfo ul li:nth-child(2){width:40%; padding-left:0.5rem;}
+.orderInfo .buyNum,.buyAmount{display:block; line-height:0.4rem;}
+.payType{margin:0.3rem 0; padding:0.3rem 0.5rem;}
+.payType dl{padding:0.4rem 0 0.4rem 0; vertical-align: middle; width:50%; display:block;}
+.payType dt{margin:0.15rem 0.1rem 0 0;}
+.payType dt img{vertical-align: middle;}
+.payType dd{max-width:80%; overflow:hidden;}
+.payType dd>span{display:block; line-height:0.4rem;}
+.payType .code{width:2.8rem; height:2.8rem; border: 1px solid #ddd; padding:0.2rem;}
+.payType .code img{display:block; width:100%; height:100%;}
+.payNote{padding:0.5rem 0.5rem 3rem 0.5rem; box-shadow: none;}
+.payNote h1{font-size:0.36rem; padding:0 0 0.2rem;}
+.payNote h1 p{font-size:0.32rem;}
+.payNote .txt{line-height:0.36rem;margin-bottom:0.5rem;}
+.order_payNote{padding-bottom:0.3rem;}
+.orderDr{width:35%; padding:30px 50px;}
+.orderDr h1{font-size:24px; line-height:36px;}
+.orderDr h1 p{font-size:36px;margin-bottom:0;}
+.orderBtn{padding:0 0.3rem;position: relative;}
+.orderBtn .btn{width:auto; height:0.6rem; text-align:center; line-height:0.6rem; font-size:0.3rem; background:#2269d4; color:#fff; border-radius:4px; cursor:pointer; padding:0 0.3rem;}
+.orderBtn .btn:hover{background:#4179cc; color:#fff;}
+.orderBtn .btn_2{background:#fff; color:#2269d4; border: 1px solid #2269d4;}
+.ts{font-size:0.24rem; width:auto; height:0.6rem; background:url(/static/mobile/css/agent/images/tsbg.png) no-repeat center; background-size:100% 100%; line-height:0.7rem; position: absolute; left:0; top:0.5rem; color:#1d1d1d; padding:0 0.2rem; overflow:hidden;}
+
+.reminds{font-size:0.26rem; padding:0.3rem;}
+.getCon{width:15px; height:18px; display:block; background:url(/static/mobile/css/agent/images/more.png) no-repeat center; background-size:80%; margin:0 auto; cursor:pointer;}
+
+/*聊天信息*/
+.chatMain{margin-bottom:2rem;}
+.chatTit .title{border-bottom: 1px solid #efefef;}
+.chatCon{width:100%; height:8rem; background:#fff;}
+
+/*信息资料*/
+.infoMain{margin-bottom:30px;}
+.baseForm{width:100%; height:auto; background:#fff;/*box-shadow:0 3px 9px 0 rgba(69, 112, 128, 0.14);*/ font-size:0.28rem; padding-bottom:0.5rem;}
+.baseForm .title{border-bottom: 1px solid #f3f3f3; padding:0 0.2rem; font-size:0.3rem;}
+.baseInfo,.Payment{padding:0 0.5rem;}
+.Payment{padding:0.3rem 0.3rem 0;}
+.baseForm .commH{width:100%; height:0.7rem; line-height:0.7rem;}
+.baseForm input.txt{background:#f1f1f1; padding-left:5px;}
+.spectial input.txt{width:40%; text-align:center; color:#6f6f6f; display:inline-block;}
+.payStyle{display:table; margin-bottom:15px; width:100%;}
+.payStyle p{width:32%; height:1rem; text-align:center; line-height: 1rem; background:#f9f9f9; border: 1px solid #f1f1f1; display:table-cell; vertical-align: middle;margin-bottom:0; cursor:pointer; font-size:0.28rem;}
+.payStyle p:nth-child(2){margin:0 0 0 2%;}
+.payStyle p.active{border: 1px solid #87b2f2;}
+.payStyle p img{width:0.24rem; height:0.24rem; margin-right:0.06rem; display:inline-block;vertical-align: middle; }
+.payInformation{width:100%;}
+.upload{margin:10px 0 0 0;}
+.upPic{width:4rem; height:4rem; background:#f9f9f9; margin-top:0.4rem; }
+.img,.verified{width:4rem; height:4rem; text-align:center; display:table-cell; vertical-align:middle;}
+.img img{display:inline-block; width:auto; height:auto; max-width:4rem; max-height:4rem; border:none;}
+img[src=""]{opacity:0;}
+.upPic .cx .str{color:#06ae2d; padding:0 1px; letter-spacing:1px;}
+.inner{position: relative;}
+.upload_original{width:4rem; height:4rem; text-align:center; position: absolute; left:0; top:42%; z-index: 99; color:#333; cursor:pointer;}
+.tj{width:90%; height:0.7rem; background:#2269d4; border-radius:4px; text-align:center; display:block; line-height:0.7rem; color:#fff;cursor:pointer; margin:0.3rem auto 0.5rem;}
+.checkbox{appearance: none; -webkit-appearance: none;outline: none;display:none;}
+.lab{display:inline-block;cursor:pointer; margin-top:10px;}
+.lab .checkbox + span{width:0.14rem; height:0.14rem; display:inline-block;border: 1px solid #ccc; border-radius:2px; float:right; margin:7px 0 0 0;}
+.lab .checkbox:checked + span{border:none; background:#2269d4 url(/static/mobile/css/agent/images/gou.png) no-repeat center; background-size:100%;}
+.pay_con{display:none;}
+.pay_con.active{display:block;}
+
+#ftype{width:100%; height:0.7rem; line-height:0.7rem; background:#f1f1f1; color:#6f6f6f;}
+
+/*订单记录*/
+.usdtTrade2{padding:0 0 2rem 0;}
+.recodeInfo{background:#fff; padding-top:0.15rem;}
+.search{height:0.6rem; border-radius:3px; margin:0 0.1rem 0; border: 1px solid #d0d0d0; overflow:hidden;}
+.search .text{width:78%; height:100%; font-size:0.24rem; background:#fff; line-height:0.6rem; padding-left:0.1rem;}
+.search .sub{width:22%; height:100%;background:#f1f1f1; color:#333; text-align:center; cursor:pointer;}
+.ddSteup{padding:0 0.1rem; line-height:0.6rem; margin:0.2rem 0 0; padding-bottom:0.2rem;}
+.ddSteup .dd_list{width:100%; display:block; background:#f1f1f1;}
+
+#slidecontentbox{background:#fff;/* min-height:5rem;*/}
+
+.order_ol{margin-bottom:0.2rem;}
+.order_ol li{width:100%; border-bottom: 1px solid #e4e4e4;height: 0.7rem;display: block;line-height: 0.7rem;text-align: center;font-size: 0.28rem;color: #999;}
+.order_ol li a{color:#565656; display:block;}
+.order_ol .active a{display:block;color:#2269d4; border-bottom:2px solid #2269d4;}
+.table-item2{margin-bottom:0; border-bottom: 1px solid #eee; padding:0.3rem;}
+.table-item2 .tabs{width:auto; padding-bottom:0;}
+.recodeMains .tm{color:#333;}
+.reodeDetails{padding:0.3rem; background:#fff; margin-bottom:0.3rem; /*box-shadow:0 3px 9px 0 rgba(69, 112, 128, 0.14);*/;}
+.reodeDetails p{overflow:hidden; margin-bottom:0;}
+.reodeDetails .tt{width:2.6rem; overflow:hidden; color:#6f6f6f;}
+.reodeDetails .tts{color:#171717;}
+.reodeDetails p img{margin:0 0 0 5px;}
+.reodeDetails p em{color:#6f6f6f;}
+.reodeDetails p .frees{text-decoration:line-through;}
+
+
+
+/*代理商申请页面*/
+.agentApply{border-radius:4px;font-size:0.28rem; }
+.agentApply h1{height:0.8rem; line-height:0.8rem; font-size:0.36rem; color:#6f6f6f; padding-left:0.3rem; border-bottom: 1px solid #efefef; background:#fff; font-weight:normal;}
+.applyFor .steps{background:#fff; padding-top:0.5rem;}
+.applyFor .steps ol{width:94%;}
+.applyFor .steps ol li{width:25%;}
+.applyFor .steps ol li:nth-child(2) span{margin-left:22%;}
+.applyFor .steps ol li:nth-child(3) span{margin-left:38%;}
+.applyFor .steps ol li:nth-child(4) span{margin-left:72%;}
+
+.applyType{padding:0 0.3rem; background:#fff;box-shadow:0 2px 5px 0 rgba(69, 112, 128, 0.14); margin:0.3rem 0; }
+.applyType dl{width:33.3%; text-align:center; margin:20px 0;}
+.applyType dt img{width:86px; height:auto;}
+.applyType dd{font-size:15px; color:#6f6f6f;}
+.careText{ padding:0.8rem 0.5rem 0.5rem; background:#fff;}
+.careTextBox{box-shadow:0 1px 5px 0 rgba(69, 112, 128, 0.14); padding:0.8rem 0.5rem;  line-height:22px;}
+.careTextBox .p_01{margin-bottom:8px;}
+.applyForCon{padding:0 0.5rem 0.6rem; background:#fff;}
+.applyForCon li{ float:left; line-height:32px;}
+.liw{width:33.3%;}
+.tjApply{text-align:center; background:#fff; padding-bottom:2rem; }
+.tjApply .checkCon{display:inline-block; margin:0 auto; font-size:0.26rem;}
+.tjApply .checkCon .lab{margin:1px 5px 0 0;}
+.tjApply .checkCon em a{border-bottom: 1px solid #2269d4;}
+.lab .checkbox + span{width:0.25rem; height:0.25rem;}
+.apply_Btn{display:block; width:260px; height:1.3rem; line-height:1.3rem; background:#2269d4; color:#2269d4; border:none; color:#fff; margin:20px auto 0;}
+
+/*代理商申请状态*/
+.agentMain{padding-top:1.5rem; background:#fff; height:100%;}
+.applyStatus .status1{width:175px; height:175px; background:#f1f1f1; text-align:center; border-radius:50%; font-size:0.28rem; padding-top:1.5rem; margin:2rem auto 2rem; color:#2269d4; display:none;}
+.applyStatus .status1 img{width:2rem;}
+.applyStatus .status1 p{margin:5px 0 0 0;}
+.applyStatus .status1.active{display:block;}
+
+#slide_loading_btn{text-align:center;}
+
+
+
+
+
+
+@media (max-width:320px){
+.uTradeTabs ul li{width:49%;}
+.uTradeTabs .tab_nav{padding:0.3rem 0.2rem;}
+.uTradeTabs li img{width:24px; height:24px; margin-right:3px;}
+.uTradeTabs li p{font-size:0.24rem;}
+.recodeInfo ol li{padding:0;}
+.showBox .title{font-size:0.28rem;}
+.showBox .btns .button.cancle{padding:0 0.3rem;}
+.spectial input.txt{width:39%;}
+}

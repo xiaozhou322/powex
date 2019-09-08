@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.container {
+	position: relative;
+}
+/*header*/
+.gray-bg {
+	height: 100%;
+	background: #f9fbff url("../../images/dowload/bgdown2x.png") no-repeat center;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+	position: relative;
+}
+.grayApp{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 48px;
+}
+.grayApp .grayAppUl li:nth-child(1) h3{
+    font-size: 44px;
+    font-family: MicrosoftYaHei;
+    height: 54px;
+    line-height: 54px;
+    margin-bottom: 37px;
+    color:#33485B;
+}
+.grayApp .grayAppUl li:nth-child(4){
+    margin-left: 34px;
+    margin-top: 32px;
+}
+.grayApp .grayAppUl .downtit{
+	margin-bottom: 25px;
+}
+.grayApp .grayAppUl .downtit>img{
+    vertical-align: -3px;
+}
+.grayApp .grayAppUl .downtit>span{
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    margin-left: 14px;
+}
+.grayApp .grayAppUl .grayAppLi{
+	margin-left: 34px;
+	clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+.grayApp .grayAppUl .grayAppLi>p{
+    float: left;
+}
+.grayApp .grayAppUl .grayAppLi>p:nth-child(2){
+	margin: 0 65px;
+}
+.grayApp .grayAppUl .grayAppLi>p>span{
+    display: block;
+    margin-bottom: 10px;
+}
+.grayApp .grayAppUl .grayAppLi>p>em{
+font-size:18px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+}
+
+.grayButton{
+    background: #131E30;
+    width: 100%;
+    clear: both;
+    height: 348px;
+    position: relative;
+}
+.downLeft{
+    position: absolute;
+    top: -84px;
+    left: 30%;
+}
+.downRight{
+	position: absolute;
+    top: -395px;
+    right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

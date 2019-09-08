@@ -1,0 +1,107 @@
+
+/*USTD.css*/
+body{font-family:"微软雅黑";}
+.lw-UstdBody{width:100%;min-height:850px;/* margin-top:70px;*/ background:url(/static/front2018/images/exchange/usdBg.jpg) no-repeat center; position: relative;background-size:100% 100%;}
+.lw-UstdBody .header_in{background:rgba(0, 0, 0, 0.3)!important;}
+.ustdBtns{width:438px; height:570px; margin:0 auto; padding-top:100px;}
+.ustdBtns ul li{width:100%; }
+.ustdBtns ul li a{color:#fff;height:164px; background:#5c9cfc; text-align:center; padding:38px 0; display:block;}
+.ustdBtns ul li:nth-child(2) a{margin:40px 0; background:#ffb85c;}
+.ustdBtns ul li:nth-child(3) a{background:#98b8e9; padding:56px 0 0 0;}
+.ustdBtns li h1{font-size:48px; line-height:48px;}
+.ustdBtns li small{font-size:24px; line-height:24px; margin-top:20px; display:block;}
+
+/*购买1*/
+.buyUstdMain{width:1022px; height:auto; margin:80px auto 50px; padding:50px 60px 70px; background:#fff; border-radius:8px;}
+.steps{border-bottom: 2px solid #eee; padding-bottom:25px;}
+.steps ol{width:550px; margin:0 auto; position: relative;}
+.steps ol:before{content:''; width:92%; height:4px; background:#e4e4e4; position: absolute; left:23px; top:25px;}
+.steps ol li{width:33.3%; color:#999; font-size:14px;}
+.steps ol li em{display:block; margin-top:18px;}
+.steps ol li span{width:50px; height:50px; background:rgba(153,153,153,.2); border-radius:50%; position: relative; display:block;}
+.steps ol li span:before{content:""; width:34px; height:34px; background:#999; border-radius:50%; position: absolute;left:8px; top:8px;}
+.steps ol li:nth-child(2) span{margin:0 40%;}
+.steps ol li:nth-child(3) span{margin-left:73%;}
+.steps ol li.active{color:#488bef;}
+.steps ol li.active span{background:rgba(72, 139, 239, 0.2);}
+.steps ol li.active span:before{content:""; background:#488bef;}
+.textCenter{text-align:center;}
+.textLeft{text-align:left;}
+.textRight{text-align:right;}
+.colorRed{color:#FF0000;}
+.UBtn{width:100%; height:50px; line-height:50px; font-size:18px; background:#5c9cfc; border-radius:4px; text-align:center; color:#fff; cursor:pointer;}
+.UBtn:hover{opacity:.8;}
+.UBtn2{background:#ff9f22;}
+.mtop20{margin-top:20px;}
+.mtop50{margin-top:50px;}
+.steps_1,.steps_2{width:100%; height:auto; padding:0 210px;}
+.steps_1{font-size:16px;}
+.steps_1 h1{font-size:26px; line-height:30px;padding:50px 0 45px 0; font-family:'微软雅黑';}
+.steps_1 h4{line-height:18px; font-f: ;amily:'微软雅黑';}
+.stepsForm{margin-top:80px;}
+.commW,.usdt_withdraw .form-control,#withdrawBlank{width:100%; height:50px;border-radius:3px; border: 1px solid #e4e4e4; padding:8px 8px 12px 15px; margin-top:30px; position: relative; }
+.commW span:nth-child(1){width:100px; display:inline-block;}
+.commW .txt{margin-left:40px;}
+.bankName{margin-left:40px; display:inline-block;}
+.Color333{color:#333!important;}
+.priceAll{padding:10px 0 0 15px;}
+
+.showWarp{width:100%; height:100%;background:rgba(0,0,0,.2); position: fixed; left:0; top:0; right:0; bottom:0; display:none;}
+
+.step_1Warp{width: 646px;height: auto;background: #fff;border-radius: 4px;padding: 40px 40px 60px;margin: -200px 0 0 -323px;position: absolute;left: 50%;top: 50%;}
+.step_1Warp h2{font-size:20px; line-height:52px; font-family:'微软雅黑'; }
+.step_1Warp p{font-size:14px; color:#999; line-height:38px;}
+.UBtn3{width:50%; display:inline-block; margin-top:40px;}
+
+.steps_2 dl{padding:30px 10px 20px 0; overflow:hidden;}
+.steps_2 dt{width:83px; height:83px; border-radius:50%; overflow:hidden; margin-right:32px;}
+.steps_2 dt img{display:block; width:100%; height:100%;}
+.steps_2 dd{font-size:13px; color:#333; line-height:30px;}
+
+.bankInfo{width:100%; border: 1px solid #ececec; border-radius:4px; padding:13px 22px; font-size:16px; line-height:34px;}
+.promptTxt{font-size:13px;line-height:28px; margin:16px 0 20px 0;}
+.cblue{color:#5c9cfc;}
+
+.stepsMain{padding:50px 0 70px 0; margin-bottom:100px;}
+.steps_3{padding:70px 0 0 0;}
+.step3Con{font-size:18px;}
+.step3Con h3{font-size:24px; font-family:"微软雅黑";}
+.step3Con img{width:118px; height:118px; margin-bottom:36px;}
+.step3Con p{line-height:40px;}
+.Color999{color:#999;}
+.stepsAll{display:block;}
+.stepsAll.curSteps{display:block;}
+
+.recodeMain{padding-top:80px;}
+.usdtTit>ul{border-bottom: 1px solid #e9e9e9; padding-bottom:20px; font-size:18px;}
+.usdtTit a{width:50%;display:inline-block; text-align:center; color:#999; cursor:pointer; float:left;}
+.usdtTit>ul li{display:block; float:none;}
+.usdtTit>ul li.cur{color:#5c9cfc;}
+.recodeDetail{width:100%; padding-top:20px; display:none;}
+.recodeDetail.cur{display:block;}
+.recodeDetail table{width:100%; font-size:16px; color:#999;}
+.recodeDetail tr th,td{/*width:14%; */text-align:center; padding:2px 0; font-size:14px;}
+.opa-link span{line-height:20px;}
+
+/*usdt提币*/
+.usdtTd h1{font-size:24px; color:#333;}
+.usdt_withdraw{font-size:16px;}
+.usdt_withdraw .form-group{width:100%; position: relative; margin-top:20px;}
+.usdt_withdraw .form-control{width:100%; padding-left:150px; display:block;}
+.border-fff{margin-left:20px;}
+.usdt_withdraw{width:100%; padding:0 210px;}
+.usdt_withdraw .tl_s{float:left; width:20%; height:50px; line-height:50px; text-align:left;}
+.usdt_withdraw .textBox{float:left; width:78%; position: relative;}
+.usdt_withdraw .form-control{width:100%; padding-left:5px; margin-top:0;}
+.btn-sendmsg,.dy_usdt{width:auto; height:50px; padding:0 10px; position: absolute; right:0; top:0;}
+#withdrawBlank{width:78%; margin-top:0;}
+.addtips{position: absolute; right:-78px; top:9px;}
+.tixianCare{font-size:14px; line-height:30px; margin-top:30px;}
+#showcoincode{width:100%;}
+#showcoincode .tl_s{ height:34px; line-height:34px; padding:0;}
+.userInvite-linkCopy{width:auto; height:34px; line-height:34px; padding:0 10px;}
+.uh_tr{position: relative;}
+.dy_usdt{top:0; right:-120px;}
+/*2017/12/16*/
+#diyMoney,#exchangecode{width:60%;}
+#diyMoney:focus,#exchangecode:focus{border:none!important; box-shadow:none!important;}

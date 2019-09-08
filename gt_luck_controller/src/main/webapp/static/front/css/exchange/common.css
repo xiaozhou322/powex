@@ -1,0 +1,24 @@
+*{margin:0;padding:0; box-sizing:border-box; -ms-box-sizing:border-box; -wekit-box-sizing:border-box; -moz-box-sizing:border-box;}
+body,button,input,select,textarea{font:12px/2 Verdana, "Arial", Helvetica, sans-serif;}/*宋体 \5FAE\8F6F\96C5\9ED1  Verdana, Helvetica, sans-serif*/
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a:link,a:visited{text-decoration:none;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;outline: none; border:none;}
+textarea{resize:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+html,body{ color:#666; min-width:1200px;}
+.mg{width:1200px; margin:0 auto;} /*这个是内容的最大宽度，根据设计稿实际宽度定*/
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.clear{clear: both;}
+.clear:after{content: "";display: table;clear: both;overflow: hidden;}
+.disabled{ pointer-events: none;cursor: auto; }
+/*需要时加上，数据可按实际情况更改*/
+/*input:focus{border: 1px solid #4f94e7; box-shadow:0 0 8px #4f94e7;}
+select:focus{border: 1px solid #4f94e7; box-shadow:0 0 8px #4f94e7;}
+textarea:focus{border: 1px solid #4f94e7; box-shadow:0 0 8px #4f94e7;}*/

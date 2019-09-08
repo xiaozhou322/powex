@@ -1,0 +1,232 @@
+html, body{background: #f9fbff;}
+.orderCen{    margin: 50px auto;    width: 1300px;}
+.buy_list{    
+	clear: both;
+    overflow: hidden;    background: #fff;
+    padding: 0 20px;}
+.buy_list a.active {
+    background: #fff;
+    color: #488bef;
+    border-bottom: 6px solid #488bef;
+}
+.buy_list a {
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    line-height: 51px;
+    color: #666;
+    float: left;
+    margin-right: 20px;
+    padding: 0 45px;
+}
+.tables-title {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    border-bottom: 1px solid #e8eaee;
+    padding: 0 30px 0 50px;
+    margin-top: 14px;
+}
+.tables-title .tit {
+    display: block;
+    width: 16.6%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    font-weight: normal;
+}
+.buyMarket{min-height: 600px;}
+.buyMarket .buyMarTh{
+    background: #EEF4FF;
+    height: 64px;
+    line-height: 64px;
+    color: #373737;
+    font-size: 15px;
+}
+.buyMarket .buyMarTh li,.buyMarket .buyMarTd li{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    color: #666;
+}
+.buyMarket ul li .buyBt{
+    background: #76C80E;
+    width: 90px;
+    height: 28px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.buyMarket ul li .sellBt{
+    background: #F06338;
+    width: 90px;
+    height: 28px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.buyMarket ul li>a{
+	color: #373737;
+}
+.buyMarket ul .payImg>img{
+	vertical-align: -9px;
+    width: 22px;
+    margin-right: 10px;
+}
+.buyMarket ul .payImg>img:last-child{
+	margin-right: 0px;
+}
+.buyMarket .buyMarTd{
+    height: 60px;
+    line-height: 60px;
+    clear: both;
+    overflow: hidden;
+}
+.buyMarket .buyMarTd:nth-child(even){background: #FFF;}
+.buyMarket .buyMarTd:nth-child(odd){background: #f9fbff;}
+.buyMarket .buyMarTd:hover{background-color: #F0F5FF;}
+/* 弹出窗 */
+.warpForm .showBox .close{right: 17px;top: 0px;}
+.agentTit{
+    color: #373737;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+}
+.agentTit>p{font-size: 14px;color: #FF2D2D;}
+#price{display:block;line-height: 40px;}
+
+/* 详情 */
+.hintH3{
+    color: red;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* OTC购买详情 */
+.orderPrice .orderInfo{
+    width: 314px;
+    text-align: center;
+}
+.orderPrice{padding: 20px;}
+.uTrade{width: 1300px;}
+.uTradeH3{    
+	color: red;
+    font-size: 14px;
+    line-height: 24px;
+    width: 500px;    margin-bottom: 30px;
+    margin-top: 20px;}
+.orderMain .fShortName{
+    font-size: 14px;
+    color: #000;
+    text-indent: 2em;
+    line-height: 40px;
+    height: 30px;
+}
+.orderCon{padding: 10px 30px;}
+.orderMain .fragent{
+	font-size: 20px;
+    color: #FF2323;
+    text-indent: 30px;
+    line-height: 56px;
+    height: 50px;}
+.priceLi{padding: 10px 0;color:#666666;font-size:14px;}
+.priceLi li{
+    display: inline-block;
+    width: 270px;
+}
+
+/* 第一种解决方案：css3样式改变 radio 默认样式 */
+.checkbox01 input[type=radio] + label::before {
+    content: "\a0";  /*不换行空格*/
+    display: inline-block;
+    vertical-align: 2px;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50%; 
+    border: 1px solid #fff;
+    text-indent: 2px;
+    line-height: .65;  /*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*/
+    padding: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-top: 17px;
+}
+.checkbox01 input[type="radio"]:checked + label::before {
+    background-color: #488BEF; /* 选中的背景颜色 */
+    padding: 3px;
+    background-clip: content-box;
+}
+.checkbox01 input[type='radio'] {
+    /* 隐藏掉原先实际的 radio 框，之所以没用 display:none; 这种简单直接的方式，
+        是因为这种方法会把它从键盘 tab 键切换焦点的队列中完全删除 */
+    position: absolute;
+    clip:rect(0,0,0,0);       /* 第一种隐藏方式：剪切为0 */
+    /* visibility: hidden; */ /* 第二种隐藏方式：隐藏 */
+}
+.checkbox01{float:left;line-height: 50px;color: #666;}
+.otc_pay{float:left;position: relative;cursor: pointer;}
+.orderImg img{vertical-align: -7px;    margin: 0 8px 0 4px;    width: 26px;}
+.hCode img{vertical-align: -9px;margin-left: 20px;}
+#telephone{
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px 0 0 20px;
+    color: #505050;
+}
+#buttonOper{
+    padding: 10px 0 30px 0;
+}
+.orderCon .orderMain{border:none;}
+.remindCon h3{font-size:16px;}
+.orderidTit{
+    clear: both;
+    overflow: hidden;
+    margin: 0 30px;
+        height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 14px;
+    color: #000;
+}
+.colorBlue{    font-size: 18px;}
+.chat-box{    clear: both;
+    zoom: 1;}
+.chat-box2{    clear: both;margin: 0 10px 0 0;
+    zoom: 1;}
+.chat-box .sigleMsg{    float: right;overflow-wrap: break-word;}
+.chat-box2 .sigleMsg{display: flex;}
+.chat-box .chat-time{text-align: right;}
+.chat-box2 .chat-time{text-align: left;}
+/* 历史订单、未完成订单 */
+.orderliBox .itemTit .item_s, .orderliBox .itemForm .item_s{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

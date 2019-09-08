@@ -1,0 +1,20 @@
+*{margin:0;padding:0; box-sizing:border-box; -ms-box-sizing:border-box; -wekit-box-sizing:border-box; -moz-box-sizing:border-box;}
+body,button,input,select,textarea{font:12px/2 Arial,opensans,Verdana,Sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a:link,a:visited{text-decoration:none;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;outline: none;}
+textarea{resize:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+html,body{ color:#666; min-width:1200px;}
+.mg{width:1200px; margin:0 auto;} /*这个是内容的最大宽度，根据设计稿实际宽度定*/
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.clear{clear: both;}
+.clear:after{content: "";display: table;clear: both;overflow: hidden;}
+.disabled{ pointer-events: none;cursor: auto; }

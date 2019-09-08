@@ -1,0 +1,54 @@
+*{margin:0;padding:0; box-sizing:border-box; -ms-box-sizing:border-box; -wekit-box-sizing:border-box; -moz-box-sizing:border-box;}
+body,button,input,select,textarea{font-family:'微软雅黑'; font-size:14px;}/*宋体 \5FAE\8F6F\96C5\9ED1  Verdana, Helvetica, sans-serif*/
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+small{font-size:12px;}
+ul,ol,li{list-style:none;}
+a:link,a:visited{text-decoration:none;}
+fieldset,img{border:0;}
+button,input,textarea{font-size:100%;outline: none; border:none;}
+/*select{outline:none;}
+*/textarea{resize:none;}
+table{border-collapse:collapse;border-spacing:0;}
+html, body, section{position: relative;}
+ input::-webkit-input-placeholder {color:#999;}
+html,body{ color:#666; min-width:1300px;font-family:'微软雅黑';}
+.mg{width:1200px; margin:0 auto;    padding: 0px 0 0 0;
+    margin-bottom: 50px;} /*这个是内容的最大宽度，根据设计稿实际宽度定*/
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.clear{clear: both;}
+.clear:after{content: "";display: table;clear: both;overflow: hidden;}
+.disabled{ pointer-events: none;cursor: auto; }
+/*需要时加上，数据可按实际情况更改*/
+input:focus{border: 1px solid #85aae1; /*box-shadow:0 0 2px #85aae1;*/}
+select:focus{border: 1px solid #85aae1; /*box-shadow:0 0 2px #85aae1;*/}
+textarea:focus{border: 1px solid #85aae1; /*box-shadow:0 0 2px #85aae1;*/}
+.loginMain input:focus{border: 1px solid #85aae1; /*box-shadow:0 0 2px #85aae1;*/}
+.text-danger,.cred{color:#ff5e3a!important;}
+.text-success,.cgreen{color:#76c80e!important;}
+.cgreen2{color:#548e54!important;}
+
+.lightBlue{color:#85aae1;}
+.cblue{color:#003ae1!important;}
+.cblue2{color:#2269d4!important;}
+.bdRedius{border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px;}
+.dsblock{display:block;}
+.dsInblock{display:inline-block;}
+.mgt50{margin-top:50px;}
+.mgt30{margin-top:30px;}
+.mgt20{margin-top:20px;}
+.mgt15{margin-top:15px;}
+
+/*.loginMain select::-ms-expand { display: none; }          
+select{
+border: none;
+outline: none;
+将默认的select选择框样式清除
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+-ms-appearance:none;
+}
+*/

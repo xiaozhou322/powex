@@ -1,0 +1,58 @@
+
+hr {
+    border:none;
+    border-top:1px solid #dddddd;
+    height:3px;
+}
+body {
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background-color: #eff3f7;
+    position: relative;
+}
+
+.m-app-bar{
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    font-size: 18px;
+    height: 45px;
+    background: #0a7cd1;
+    margin-top: -2px;
+    margin-bottom: -10px;
+}
+
+.m-app-bar a{
+    color: #ffffff;
+}
+
+.m-news-title{
+    color: #08404e;
+    text-align: left;
+    font-size: 20px;
+    /* margin-top: 55px; */
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.m-news-info{
+    line-height: 30px;
+}
+
+.m-news-source{
+    color: #858e8b;
+    text-align: left;
+    font-size: 12px;
+}
+
+.m-news-source a{
+    color: #70858e;
+}
+
+.m-news-content{
+    margin-top: 16px;
+    line-height: 1.8;
+    font-size: 16px;
+    text-shadow: 0 1px 1px #fff;
+    color: #333;
+}

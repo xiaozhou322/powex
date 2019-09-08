@@ -1,0 +1,58 @@
+*{margin:0;padding:0;list-style:none; -moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}
+html{font-size:100px;}
+/*body,button,input,select,textarea{font:14px/2 PingFangRegular , "微软雅黑", Helvetica, sans-serif;}*/
+
+
+body{font-family:'Roboto,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,serif'; font-size:0.28rem;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+small{font-size:12px;}
+address,cite,dfn,em,var{font-style:normal;color:#8D939B;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+ul,ol{list-style:none;}
+a{text-decoration:none; color:#A7BCDF;}
+a:hover{color:#4d6fd0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#6f6f6f;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;outline: none; border:none; background:none;}
+input{font-size:0.26rem;}
+table{border-collapse:collapse;border-spacing:0;}
+html,body{ color:#6f6f6f;}
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.clear{clear: both;}
+.clear:after{content: "";display: table;clear: both;overflow: hidden;}
+.cblue{color:#769adf!important;}
+.cblue2{color:#2269d4!important;}
+.buyColor{color:#526481!important;}
+.sellColor{color:#526481!important}
+.upPrice,.downPrice{color:#05C78F;}
+.textL{text-align:left!important;}
+.textC,.textCenter{text-align:center!important;}
+.textR{text-align:right!important;}
+.mtop{margin-top:1rem;}
+.li_color1{color:#f7931a!important;}
+.li_color2{color:#497391!important;}
+.li_color3{color:#35b14f!important;}
+.li_color4{color:#020100!important;}
+.li_color5{color:#3ea2ff!important;}
+.li_color6{color:#ffd43e!important;}
+.mtop2{margin-top:0.5rem;}
+ input::-webkit-input-placeholder{color:#aab2bd;}    /* 使用webkit内核的浏览器 */
+input:-moz-placeholder{color:grey;}                  /* Firefox版本4-18 */
+input::-moz-placeholder{color:grey;}                  /* Firefox版本19+ */
+input:-ms-input-placeholder{color:grey;} 
+/*@media (max-width: 768px) {
+	.mg {width: 100%;padding: 0 10px;}
+}
+@media (min-width: 769px) and (max-width: 992px) {
+	.mg {margin: 0 auto;width: 760px;padding: 0 10px;}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	.mg {margin: 0 auto;width: 980px;padding: 0 10px;}
+}
+@media (min-width: 1201px) {
+	.mg {margin: 0 auto;width: 1000px;padding: 0 10px;}
+}*/
