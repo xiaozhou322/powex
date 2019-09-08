@@ -4,7 +4,7 @@
 
 数据库脚本在 百度网盘。
 
-使用 
+使用 mysql 5.7
 
 链接：https://pan.baidu.com/s/17rfUrwxgyPlHDMQaSSIlMQ 
 提取码：dii2 
